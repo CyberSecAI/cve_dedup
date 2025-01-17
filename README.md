@@ -37,7 +37,7 @@ Top 100 Largest Duplicate Group Sizes
 1. Clone the repository
 2. Install required packages:
 ```bash
-pip install pandas rapidfuzz tqdm matplotlib
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -108,6 +108,32 @@ The tool uses several optimizations:
 For a dataset of ~240,000 CVEs:
 - Reduction in duplicates: ~34%
 
+## Preparing the input file from nvd.jsonl
+
+````
+python3 json2csv.py
+
+Processing Summary:
+Total entries processed: 275721
+Total rejected CVEs: 14595
+ - With '** REJECT **': 0
+ - With 'Rejected reason:': 14595
+Valid CVEs saved: 261126
+Rejection rate: 5.29%
+
+Saved 261126 valid CVE entries to ./data_in/CVSSData.csv.gz
+
+First few entries:
+             CVE                                        Description
+0  CVE-1999-0095  The debug command in Sendmail is enabled, allo...
+1  CVE-1999-0082      CWD ~root command in ftpd allows root access.
+2  CVE-1999-1471  Buffer overflow in passwd in BSD based operati...
+3  CVE-1999-1122  Vulnerability in restore in SunOS 4.0.3 and ea...
+4  CVE-1999-1467  Vulnerability in rcp on SunOS 4.0.x allows rem...
+
+Total valid CVEs saved: 261126
+````
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -117,3 +143,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 > [!NOTE]  
 >This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 > - https://creativecommons.org/licenses/by-sa/4.0/
+
