@@ -1,10 +1,7 @@
 # CVE Deduplication Tool
 
-A Python utility for identifying and removing duplicate CVE (Common Vulnerabilities and Exposures) descriptions using fuzzy string matching.
+A Python utility for identifying and removing duplicate CVE (Common Vulnerabilities and Exposures) descriptions using exact, and fuzzy string matching.
 
-![Duplicate Groups Distribution](./images/duplicate_analysis.png)
-
-![Duplicate Groups Distribution](./images/duplicate_groups_distribution.png)
 
 ## Features
 
@@ -14,6 +11,17 @@ A Python utility for identifying and removing duplicate CVE (Common Vulnerabilit
 - Detailed duplicate analysis and reporting
 - Visualization of duplicate groups
 - Configurable similarity threshold and search window
+
+
+Exact vs Fuzzy Match
+![Exact vs Fuzzy Match](./images/duplicate_comparison.png)
+
+
+![Duplicate Groups Distribution](./images/duplicate_analysis.png)
+
+Top 100 Largest Duplicate Group Sizes
+![Duplicate Groups Distribution](./images/duplicate_groups_distribution.png)
+
 
 ## Requirements
 

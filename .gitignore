@@ -1,6 +1,7 @@
 #venv
 dedup/
 data_in/nvd.json
+tmp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
