@@ -1,6 +1,6 @@
 #venv
 dedup/
-data_in/nvd.json
+data_in/nvd.jsonl
 tmp
 
 # Byte-compiled / optimized / DLL files
