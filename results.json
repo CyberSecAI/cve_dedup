@@ -1,0 +1,3239 @@
+{
+  "target_cve": "CVE-2024-1234",
+  "known_cwe": "NoCWE",
+  "predictions": [
+    {
+      "cwe": "NoCWE",
+      "count": 1,
+      "confidence": 1.0,
+      "evidence": [
+        {
+          "cve": "CVE-2024-2750",
+          "similarity_scores": {
+            "ratio": 96.25292740046838,
+            "token_sort_ratio": 95.78454332552693,
+            "token_set_ratio": 98.31824062095731
+          }
+        }
+      ]
+    },
+    {
+      "cwe": "CWE-79",
+      "count": 3,
+      "confidence": 0.14285714285714285,
+      "evidence": [
+        {
+          "cve": "CVE-2024-0834",
+          "similarity_scores": {
+            "ratio": 95.07042253521126,
+            "token_sort_ratio": 94.13145539906104,
+            "token_set_ratio": 95.62913907284768
+          }
+        },
+        {
+          "cve": "CVE-2024-0448",
+          "similarity_scores": {
+            "ratio": 92.96424452133795,
+            "token_sort_ratio": 90.42675893886967,
+            "token_set_ratio": 93.12039312039312
+          }
+        },
+        {
+          "cve": "CVE-2024-5757",
+          "similarity_scores": {
+            "ratio": 90.12208657047725,
+            "token_sort_ratio": 85.68257491675915,
+            "token_set_ratio": 90.98250336473755
+          }
+        }
+      ]
+    },
+    {
+      "cwe": "CWE-89",
+      "count": 1,
+      "confidence": 0.00684931506849315,
+      "evidence": [
+        {
+          "cve": "CVE-2023-5252",
+          "similarity_scores": {
+            "ratio": 84.3400447427293,
+            "token_sort_ratio": 84.56375838926175,
+            "token_set_ratio": 90.17980636237897
+          }
+        }
+      ]
+    }
+  ],
+  "analysis": {
+    "95": {
+      "similar_cves_count": 1,
+      "predictions": [
+        {
+          "cwe": "NoCWE",
+          "count": 1,
+          "confidence": 1.0,
+          "evidence": [
+            {
+              "cve": "CVE-2024-2750",
+              "similarity_scores": {
+                "ratio": 96.25292740046838,
+                "token_sort_ratio": 95.78454332552693,
+                "token_set_ratio": 98.31824062095731
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "90": {
+      "similar_cves_count": 21,
+      "predictions": [
+        {
+          "cwe": "NoCWE",
+          "count": 18,
+          "confidence": 0.8571428571428571,
+          "evidence": [
+            {
+              "cve": "CVE-2024-2308",
+              "similarity_scores": {
+                "ratio": 94.71210340775558,
+                "token_sort_ratio": 91.89189189189189,
+                "token_set_ratio": 96.71484888304862
+              }
+            },
+            {
+              "cve": "CVE-2024-1392",
+              "similarity_scores": {
+                "ratio": 91.58249158249158,
+                "token_sort_ratio": 89.337822671156,
+                "token_set_ratio": 92.0
+              }
+            },
+            {
+              "cve": "CVE-2024-1393",
+              "similarity_scores": {
+                "ratio": 90.82774049217002,
+                "token_sort_ratio": 88.14317673378076,
+                "token_set_ratio": 90.99639855942377
+              }
+            },
+            {
+              "cve": "CVE-2024-1465",
+              "similarity_scores": {
+                "ratio": 90.07803790412487,
+                "token_sort_ratio": 87.40245261984391,
+                "token_set_ratio": 92.0
+              }
+            },
+            {
+              "cve": "CVE-2024-1235",
+              "similarity_scores": {
+                "ratio": 94.51575262543757,
+                "token_sort_ratio": 92.6487747957993,
+                "token_set_ratio": 95.95827900912647
+              }
+            },
+            {
+              "cve": "CVE-2024-1464",
+              "similarity_scores": {
+                "ratio": 90.86809470124012,
+                "token_sort_ratio": 87.71138669673056,
+                "token_set_ratio": 92.0
+              }
+            },
+            {
+              "cve": "CVE-2024-1461",
+              "similarity_scores": {
+                "ratio": 90.64261555806088,
+                "token_sort_ratio": 87.71138669673056,
+                "token_set_ratio": 92.0
+              }
+            },
+            {
+              "cve": "CVE-2024-1458",
+              "similarity_scores": {
+                "ratio": 90.07803790412487,
+                "token_sort_ratio": 86.73355629877368,
+                "token_set_ratio": 92.0
+              }
+            },
+            {
+              "cve": "CVE-2024-1237",
+              "similarity_scores": {
+                "ratio": 90.8881199538639,
+                "token_sort_ratio": 88.1199538638985,
+                "token_set_ratio": 92.71523178807946
+              }
+            },
+            {
+              "cve": "CVE-2024-2618",
+              "similarity_scores": {
+                "ratio": 93.00699300699301,
+                "token_sort_ratio": 90.67599067599068,
+                "token_set_ratio": 94.87516425755585
+              }
+            },
+            {
+              "cve": "CVE-2024-2781",
+              "similarity_scores": {
+                "ratio": 91.2037037037037,
+                "token_sort_ratio": 89.12037037037037,
+                "token_set_ratio": 94.25587467362924
+              }
+            },
+            {
+              "cve": "CVE-2024-1239",
+              "similarity_scores": {
+                "ratio": 90.86705202312139,
+                "token_sort_ratio": 91.79190751445087,
+                "token_set_ratio": 94.91525423728814
+              }
+            },
+            {
+              "cve": "CVE-2024-1238",
+              "similarity_scores": {
+                "ratio": 93.11551925320887,
+                "token_sort_ratio": 93.11551925320887,
+                "token_set_ratio": 95.822454308094
+              }
+            },
+            {
+              "cve": "CVE-2024-9451",
+              "similarity_scores": {
+                "ratio": 90.0462962962963,
+                "token_sort_ratio": 84.9537037037037,
+                "token_set_ratio": 90.35812672176309
+              }
+            },
+            {
+              "cve": "CVE-2024-3680",
+              "similarity_scores": {
+                "ratio": 91.29464285714286,
+                "token_sort_ratio": 89.73214285714286,
+                "token_set_ratio": 94.8051948051948
+              }
+            },
+            {
+              "cve": "CVE-2024-3831",
+              "similarity_scores": {
+                "ratio": 91.55251141552512,
+                "token_sort_ratio": 91.32420091324201,
+                "token_set_ratio": 94.11764705882354
+              }
+            },
+            {
+              "cve": "CVE-2024-2751",
+              "similarity_scores": {
+                "ratio": 93.00225733634312,
+                "token_sort_ratio": 89.16478555304741,
+                "token_set_ratio": 94.11764705882354
+              }
+            },
+            {
+              "cve": "CVE-2024-2750",
+              "similarity_scores": {
+                "ratio": 94.18472063854047,
+                "token_sort_ratio": 92.13226909920182,
+                "token_set_ratio": 95.09803921568627
+              }
+            }
+          ]
+        },
+        {
+          "cwe": "CWE-79",
+          "count": 3,
+          "confidence": 0.14285714285714285,
+          "evidence": [
+            {
+              "cve": "CVE-2024-0834",
+              "similarity_scores": {
+                "ratio": 95.07042253521126,
+                "token_sort_ratio": 94.13145539906104,
+                "token_set_ratio": 95.62913907284768
+              }
+            },
+            {
+              "cve": "CVE-2024-0448",
+              "similarity_scores": {
+                "ratio": 92.96424452133795,
+                "token_sort_ratio": 90.42675893886967,
+                "token_set_ratio": 93.12039312039312
+              }
+            },
+            {
+              "cve": "CVE-2024-5757",
+              "similarity_scores": {
+                "ratio": 90.12208657047725,
+                "token_sort_ratio": 85.68257491675915,
+                "token_set_ratio": 90.98250336473755
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "85": {
+      "similar_cves_count": 14,
+      "predictions": [
+        {
+          "cwe": "NoCWE",
+          "count": 10,
+          "confidence": 0.7142857142857143,
+          "evidence": [
+            {
+              "cve": "CVE-2024-5479",
+              "similarity_scores": {
+                "ratio": 87.1927554980595,
+                "token_sort_ratio": 80.98318240620958,
+                "token_set_ratio": 91.58576051779936
+              }
+            },
+            {
+              "cve": "CVE-2024-2082",
+              "similarity_scores": {
+                "ratio": 87.66066838046272,
+                "token_sort_ratio": 86.88946015424165,
+                "token_set_ratio": 95.96273291925466
+              }
+            },
+            {
+              "cve": "CVE-2024-2308",
+              "similarity_scores": {
+                "ratio": 85.42713567839196,
+                "token_sort_ratio": 79.14572864321609,
+                "token_set_ratio": 91.58576051779936
+              }
+            },
+            {
+              "cve": "CVE-2024-2781",
+              "similarity_scores": {
+                "ratio": 86.00508905852418,
+                "token_sort_ratio": 79.64376590330788,
+                "token_set_ratio": 91.58576051779936
+              }
+            },
+            {
+              "cve": "CVE-2024-11752",
+              "similarity_scores": {
+                "ratio": 85.42713567839196,
+                "token_sort_ratio": 80.90452261306534,
+                "token_set_ratio": 89.80263157894737
+              }
+            },
+            {
+              "cve": "CVE-2024-1320",
+              "similarity_scores": {
+                "ratio": 88.745148771022,
+                "token_sort_ratio": 85.38163001293661,
+                "token_set_ratio": 95.96273291925466
+              }
+            },
+            {
+              "cve": "CVE-2024-1414",
+              "similarity_scores": {
+                "ratio": 86.07594936708861,
+                "token_sort_ratio": 79.49367088607595,
+                "token_set_ratio": 91.58576051779936
+              }
+            },
+            {
+              "cve": "CVE-2024-1413",
+              "similarity_scores": {
+                "ratio": 85.71428571428572,
+                "token_sort_ratio": 79.14032869785082,
+                "token_set_ratio": 91.58576051779936
+              }
+            },
+            {
+              "cve": "CVE-2024-2028",
+              "similarity_scores": {
+                "ratio": 86.07594936708861,
+                "token_sort_ratio": 80.50632911392405,
+                "token_set_ratio": 91.58576051779936
+              }
+            },
+            {
+              "cve": "CVE-2024-2750",
+              "similarity_scores": {
+                "ratio": 85.85732165206508,
+                "token_sort_ratio": 79.09887359199,
+                "token_set_ratio": 91.58576051779936
+              }
+            }
+          ]
+        },
+        {
+          "cwe": "CWE-79",
+          "count": 4,
+          "confidence": 0.2857142857142857,
+          "evidence": [
+            {
+              "cve": "CVE-2024-0448",
+              "similarity_scores": {
+                "ratio": 87.70595690747783,
+                "token_sort_ratio": 82.382762991128,
+                "token_set_ratio": 93.31210191082802
+              }
+            },
+            {
+              "cve": "CVE-2024-2926",
+              "similarity_scores": {
+                "ratio": 85.08014796547472,
+                "token_sort_ratio": 78.91491985203453,
+                "token_set_ratio": 89.80263157894737
+              }
+            },
+            {
+              "cve": "CVE-2024-5645",
+              "similarity_scores": {
+                "ratio": 85.06900878293601,
+                "token_sort_ratio": 79.29736511919698,
+                "token_set_ratio": 91.58576051779936
+              }
+            },
+            {
+              "cve": "CVE-2024-0824",
+              "similarity_scores": {
+                "ratio": 85.678391959799,
+                "token_sort_ratio": 78.64321608040201,
+                "token_set_ratio": 91.58576051779936
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "80": {
+      "similar_cves_count": 23,
+      "predictions": [
+        {
+          "cwe": "NoCWE",
+          "count": 19,
+          "confidence": 0.8260869565217391,
+          "evidence": [
+            {
+              "cve": "CVE-2024-2082",
+              "similarity_scores": {
+                "ratio": 87.1548619447779,
+                "token_sort_ratio": 81.63265306122449,
+                "token_set_ratio": 85.71428571428571
+              }
+            },
+            {
+              "cve": "CVE-2024-0837",
+              "similarity_scores": {
+                "ratio": 80.67226890756302,
+                "token_sort_ratio": 76.68067226890756,
+                "token_set_ratio": 85.67251461988305
+              }
+            },
+            {
+              "cve": "CVE-2024-11203",
+              "similarity_scores": {
+                "ratio": 80.62176165803109,
+                "token_sort_ratio": 74.4041450777202,
+                "token_set_ratio": 85.67251461988305
+              }
+            },
+            {
+              "cve": "CVE-2024-4316",
+              "similarity_scores": {
+                "ratio": 81.52866242038218,
+                "token_sort_ratio": 75.3715498938429,
+                "token_set_ratio": 85.67251461988305
+              }
+            },
+            {
+              "cve": "CVE-2024-9865",
+              "similarity_scores": {
+                "ratio": 83.35273573923166,
+                "token_sort_ratio": 77.53201396973225,
+                "token_set_ratio": 86.99421965317919
+              }
+            },
+            {
+              "cve": "CVE-2024-9864",
+              "similarity_scores": {
+                "ratio": 81.42380422691879,
+                "token_sort_ratio": 78.53170189098999,
+                "token_set_ratio": 89.85915492957747
+              }
+            },
+            {
+              "cve": "CVE-2024-4669",
+              "similarity_scores": {
+                "ratio": 80.75221238938053,
+                "token_sort_ratio": 75.88495575221239,
+                "token_set_ratio": 83.97626112759644
+              }
+            },
+            {
+              "cve": "CVE-2024-2111",
+              "similarity_scores": {
+                "ratio": 82.72727272727273,
+                "token_sort_ratio": 75.45454545454545,
+                "token_set_ratio": 85.67251461988305
+              }
+            },
+            {
+              "cve": "CVE-2024-1414",
+              "similarity_scores": {
+                "ratio": 85.6470588235294,
+                "token_sort_ratio": 78.82352941176471,
+                "token_set_ratio": 85.67251461988305
+              }
+            },
+            {
+              "cve": "CVE-2024-1413",
+              "similarity_scores": {
+                "ratio": 85.31139835487662,
+                "token_sort_ratio": 78.49588719153937,
+                "token_set_ratio": 85.67251461988305
+              }
+            },
+            {
+              "cve": "CVE-2024-2028",
+              "similarity_scores": {
+                "ratio": 85.41176470588235,
+                "token_sort_ratio": 79.29411764705883,
+                "token_set_ratio": 85.67251461988305
+              }
+            },
+            {
+              "cve": "CVE-2024-2751",
+              "similarity_scores": {
+                "ratio": 85.71428571428572,
+                "token_sort_ratio": 80.4147465437788,
+                "token_set_ratio": 85.67251461988305
+              }
+            },
+            {
+              "cve": "CVE-2024-3985",
+              "similarity_scores": {
+                "ratio": 82.11473565804275,
+                "token_sort_ratio": 76.49043869516309,
+                "token_set_ratio": 83.97626112759644
+              }
+            },
+            {
+              "cve": "CVE-2024-4618",
+              "similarity_scores": {
+                "ratio": 82.99319727891157,
+                "token_sort_ratio": 76.64399092970523,
+                "token_set_ratio": 83.97626112759644
+              }
+            },
+            {
+              "cve": "CVE-2024-2750",
+              "similarity_scores": {
+                "ratio": 85.44819557625145,
+                "token_sort_ratio": 79.16181606519208,
+                "token_set_ratio": 85.67251461988305
+              }
+            },
+            {
+              "cve": "CVE-2024-9386",
+              "similarity_scores": {
+                "ratio": 80.79161816065192,
+                "token_sort_ratio": 72.40977881257275,
+                "token_set_ratio": 80.79268292682927
+              }
+            },
+            {
+              "cve": "CVE-2024-4868",
+              "similarity_scores": {
+                "ratio": 81.61434977578476,
+                "token_sort_ratio": 77.3542600896861,
+                "token_set_ratio": 83.97626112759644
+              }
+            },
+            {
+              "cve": "CVE-2024-9214",
+              "similarity_scores": {
+                "ratio": 85.42141230068337,
+                "token_sort_ratio": 81.77676537585421,
+                "token_set_ratio": 88.28571428571429
+              }
+            },
+            {
+              "cve": "CVE-2024-9442",
+              "similarity_scores": {
+                "ratio": 83.47613219094248,
+                "token_sort_ratio": 76.37698898408813,
+                "token_set_ratio": 83.6842105263158
+              }
+            }
+          ]
+        },
+        {
+          "cwe": "CWE-79",
+          "count": 4,
+          "confidence": 0.17391304347826086,
+          "evidence": [
+            {
+              "cve": "CVE-2024-0823",
+              "similarity_scores": {
+                "ratio": 82.39277652370203,
+                "token_sort_ratio": 78.1038374717833,
+                "token_set_ratio": 85.67251461988305
+              }
+            },
+            {
+              "cve": "CVE-2024-0824",
+              "similarity_scores": {
+                "ratio": 84.81308411214954,
+                "token_sort_ratio": 79.20560747663552,
+                "token_set_ratio": 85.67251461988305
+              }
+            },
+            {
+              "cve": "CVE-2024-5332",
+              "similarity_scores": {
+                "ratio": 83.04891922639364,
+                "token_sort_ratio": 77.36063708759954,
+                "token_set_ratio": 83.97626112759644
+              }
+            },
+            {
+              "cve": "CVE-2024-5666",
+              "similarity_scores": {
+                "ratio": 84.9537037037037,
+                "token_sort_ratio": 81.0185185185185,
+                "token_set_ratio": 85.67870485678705
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "75": {
+      "similar_cves_count": 177,
+      "predictions": [
+        {
+          "cwe": "NoCWE",
+          "count": 144,
+          "confidence": 0.8135593220338984,
+          "evidence": [
+            {
+              "cve": "CVE-2024-1278",
+              "similarity_scores": {
+                "ratio": 82.93216630196937,
+                "token_sort_ratio": 81.4004376367615,
+                "token_set_ratio": 86.58008658008657
+              }
+            },
+            {
+              "cve": "CVE-2024-2303",
+              "similarity_scores": {
+                "ratio": 92.0335429769392,
+                "token_sort_ratio": 90.56603773584906,
+                "token_set_ratio": 96.45909645909646
+              }
+            },
+            {
+              "cve": "CVE-2024-9642",
+              "similarity_scores": {
+                "ratio": 81.53846153846153,
+                "token_sort_ratio": 79.12087912087912,
+                "token_set_ratio": 85.06787330316742
+              }
+            },
+            {
+              "cve": "CVE-2024-9274",
+              "similarity_scores": {
+                "ratio": 81.50609080841639,
+                "token_sort_ratio": 80.39867109634551,
+                "token_set_ratio": 85.97560975609755
+              }
+            },
+            {
+              "cve": "CVE-2024-5092",
+              "similarity_scores": {
+                "ratio": 88.18737270875764,
+                "token_sort_ratio": 84.72505091649694,
+                "token_set_ratio": 89.55223880597015
+              }
+            },
+            {
+              "cve": "CVE-2024-3066",
+              "similarity_scores": {
+                "ratio": 89.1213389121339,
+                "token_sort_ratio": 85.98326359832636,
+                "token_set_ratio": 92.07161125319693
+              }
+            },
+            {
+              "cve": "CVE-2024-4490",
+              "similarity_scores": {
+                "ratio": 81.81818181818181,
+                "token_sort_ratio": 79.54545454545455,
+                "token_set_ratio": 86.13333333333333
+              }
+            },
+            {
+              "cve": "CVE-2024-9373",
+              "similarity_scores": {
+                "ratio": 81.4814814814815,
+                "token_sort_ratio": 80.13468013468014,
+                "token_set_ratio": 87.5776397515528
+              }
+            },
+            {
+              "cve": "CVE-2024-2455",
+              "similarity_scores": {
+                "ratio": 88.37675350701403,
+                "token_sort_ratio": 85.57114228456913,
+                "token_set_ratio": 91.76755447941889
+              }
+            },
+            {
+              "cve": "CVE-2024-1428",
+              "similarity_scores": {
+                "ratio": 76.96577243293247,
+                "token_sort_ratio": 76.96577243293247,
+                "token_set_ratio": 82.56410256410257
+              }
+            },
+            {
+              "cve": "CVE-2024-0837",
+              "similarity_scores": {
+                "ratio": 78.02516940948692,
+                "token_sort_ratio": 77.44433688286544,
+                "token_set_ratio": 79.29606625258799
+              }
+            },
+            {
+              "cve": "CVE-2024-1426",
+              "similarity_scores": {
+                "ratio": 78.18696883852692,
+                "token_sort_ratio": 78.18696883852692,
+                "token_set_ratio": 81.95876288659794
+              }
+            },
+            {
+              "cve": "CVE-2024-1429",
+              "similarity_scores": {
+                "ratio": 77.55868544600939,
+                "token_sort_ratio": 78.49765258215963,
+                "token_set_ratio": 81.95876288659794
+              }
+            },
+            {
+              "cve": "CVE-2024-9867",
+              "similarity_scores": {
+                "ratio": 79.60975609756098,
+                "token_sort_ratio": 78.04878048780488,
+                "token_set_ratio": 81.95876288659794
+              }
+            },
+            {
+              "cve": "CVE-2024-9868",
+              "similarity_scores": {
+                "ratio": 80.27613412228797,
+                "token_sort_ratio": 78.69822485207101,
+                "token_set_ratio": 81.95876288659794
+              }
+            },
+            {
+              "cve": "CVE-2024-10310",
+              "similarity_scores": {
+                "ratio": 79.96108949416343,
+                "token_sort_ratio": 78.79377431906615,
+                "token_set_ratio": 83.16326530612244
+              }
+            },
+            {
+              "cve": "CVE-2024-3926",
+              "similarity_scores": {
+                "ratio": 83.06220095693779,
+                "token_sort_ratio": 79.61722488038278,
+                "token_set_ratio": 86.77379480840544
+              }
+            },
+            {
+              "cve": "CVE-2024-4643",
+              "similarity_scores": {
+                "ratio": 80.1186943620178,
+                "token_sort_ratio": 79.32739861523245,
+                "token_set_ratio": 83.16326530612244
+              }
+            },
+            {
+              "cve": "CVE-2024-9058",
+              "similarity_scores": {
+                "ratio": 81.1623246492986,
+                "token_sort_ratio": 78.3567134268537,
+                "token_set_ratio": 81.95876288659794
+              }
+            },
+            {
+              "cve": "CVE-2024-3925",
+              "similarity_scores": {
+                "ratio": 84.83685220729367,
+                "token_sort_ratio": 81.7658349328215,
+                "token_set_ratio": 88.01955990220048
+              }
+            },
+            {
+              "cve": "CVE-2024-7247",
+              "similarity_scores": {
+                "ratio": 83.71212121212122,
+                "token_sort_ratio": 81.43939393939394,
+                "token_set_ratio": 89.1041162227603
+              }
+            },
+            {
+              "cve": "CVE-2024-4360",
+              "similarity_scores": {
+                "ratio": 83.71647509578544,
+                "token_sort_ratio": 81.99233716475096,
+                "token_set_ratio": 87.05302096177559
+              }
+            },
+            {
+              "cve": "CVE-2024-9657",
+              "similarity_scores": {
+                "ratio": 80.71928071928072,
+                "token_sort_ratio": 79.32067932067932,
+                "token_set_ratio": 81.95876288659794
+              }
+            },
+            {
+              "cve": "CVE-2024-2308",
+              "similarity_scores": {
+                "ratio": 83.2443970117396,
+                "token_sort_ratio": 79.82924226254002,
+                "token_set_ratio": 85.1063829787234
+              }
+            },
+            {
+              "cve": "CVE-2024-9888",
+              "similarity_scores": {
+                "ratio": 87.8048780487805,
+                "token_sort_ratio": 84.7560975609756,
+                "token_set_ratio": 88.88888888888889
+              }
+            },
+            {
+              "cve": "CVE-2024-7122",
+              "similarity_scores": {
+                "ratio": 87.92372881355932,
+                "token_sort_ratio": 83.89830508474576,
+                "token_set_ratio": 91.28738621586476
+              }
+            },
+            {
+              "cve": "CVE-2024-1392",
+              "similarity_scores": {
+                "ratio": 83.43815513626835,
+                "token_sort_ratio": 82.38993710691824,
+                "token_set_ratio": 85.6172140430351
+              }
+            },
+            {
+              "cve": "CVE-2024-1393",
+              "similarity_scores": {
+                "ratio": 83.38557993730407,
+                "token_sort_ratio": 82.5496342737722,
+                "token_set_ratio": 85.77878103837472
+              }
+            },
+            {
+              "cve": "CVE-2024-1391",
+              "similarity_scores": {
+                "ratio": 81.6872427983539,
+                "token_sort_ratio": 80.04115226337449,
+                "token_set_ratio": 84.12874583795782
+              }
+            },
+            {
+              "cve": "CVE-2024-4401",
+              "similarity_scores": {
+                "ratio": 84.53389830508475,
+                "token_sort_ratio": 81.99152542372882,
+                "token_set_ratio": 86.76671214188268
+              }
+            },
+            {
+              "cve": "CVE-2024-3743",
+              "similarity_scores": {
+                "ratio": 79.0650406504065,
+                "token_sort_ratio": 78.2520325203252,
+                "token_set_ratio": 82.6608505997819
+              }
+            },
+            {
+              "cve": "CVE-2024-1422",
+              "similarity_scores": {
+                "ratio": 89.89690721649485,
+                "token_sort_ratio": 86.3917525773196,
+                "token_set_ratio": 92.55189255189255
+              }
+            },
+            {
+              "cve": "CVE-2024-2091",
+              "similarity_scores": {
+                "ratio": 91.69295478443743,
+                "token_sort_ratio": 88.53838065194533,
+                "token_set_ratio": 95.92088998763906
+              }
+            },
+            {
+              "cve": "CVE-2024-2792",
+              "similarity_scores": {
+                "ratio": 87.9144385026738,
+                "token_sort_ratio": 84.70588235294117,
+                "token_set_ratio": 92.36842105263158
+              }
+            },
+            {
+              "cve": "CVE-2024-1465",
+              "similarity_scores": {
+                "ratio": 83.54166666666667,
+                "token_sort_ratio": 82.08333333333333,
+                "token_set_ratio": 85.03937007874016
+              }
+            },
+            {
+              "cve": "CVE-2024-1235",
+              "similarity_scores": {
+                "ratio": 83.47826086956522,
+                "token_sort_ratio": 81.08695652173913,
+                "token_set_ratio": 85.83690987124464
+              }
+            },
+            {
+              "cve": "CVE-2024-8858",
+              "similarity_scores": {
+                "ratio": 83.35123523093448,
+                "token_sort_ratio": 81.63265306122449,
+                "token_set_ratio": 86.59217877094972
+              }
+            },
+            {
+              "cve": "CVE-2024-2655",
+              "similarity_scores": {
+                "ratio": 86.88352570828961,
+                "token_sort_ratio": 82.47639034627493,
+                "token_set_ratio": 89.11917098445596
+              }
+            },
+            {
+              "cve": "CVE-2024-1466",
+              "similarity_scores": {
+                "ratio": 79.76071784646062,
+                "token_sort_ratio": 79.96011964107677,
+                "token_set_ratio": 83.94793926247289
+              }
+            },
+            {
+              "cve": "CVE-2024-1464",
+              "similarity_scores": {
+                "ratio": 83.57894736842105,
+                "token_sort_ratio": 84.42105263157896,
+                "token_set_ratio": 86.46188850967008
+              }
+            },
+            {
+              "cve": "CVE-2024-1461",
+              "similarity_scores": {
+                "ratio": 83.36842105263158,
+                "token_sort_ratio": 82.52631578947368,
+                "token_set_ratio": 86.06224627875507
+              }
+            },
+            {
+              "cve": "CVE-2024-1458",
+              "similarity_scores": {
+                "ratio": 82.91666666666666,
+                "token_sort_ratio": 81.875,
+                "token_set_ratio": 84.913217623498
+              }
+            },
+            {
+              "cve": "CVE-2024-2539",
+              "similarity_scores": {
+                "ratio": 87.95811518324608,
+                "token_sort_ratio": 85.02617801047121,
+                "token_set_ratio": 90.0
+              }
+            },
+            {
+              "cve": "CVE-2024-3064",
+              "similarity_scores": {
+                "ratio": 88.09766022380468,
+                "token_sort_ratio": 85.24923702950153,
+                "token_set_ratio": 88.98776418242491
+              }
+            },
+            {
+              "cve": "CVE-2024-2619",
+              "similarity_scores": {
+                "ratio": 75.85421412300684,
+                "token_sort_ratio": 74.4874715261959,
+                "token_set_ratio": 83.63636363636364
+              }
+            },
+            {
+              "cve": "CVE-2024-10325",
+              "similarity_scores": {
+                "ratio": 81.72972972972973,
+                "token_sort_ratio": 79.13513513513514,
+                "token_set_ratio": 83.1858407079646
+              }
+            },
+            {
+              "cve": "CVE-2024-1237",
+              "similarity_scores": {
+                "ratio": 84.3010752688172,
+                "token_sort_ratio": 83.01075268817203,
+                "token_set_ratio": 85.51564310544612
+              }
+            },
+            {
+              "cve": "CVE-2024-4634",
+              "similarity_scores": {
+                "ratio": 83.74070138150903,
+                "token_sort_ratio": 82.89054197662061,
+                "token_set_ratio": 87.87061994609164
+              }
+            },
+            {
+              "cve": "CVE-2024-2618",
+              "similarity_scores": {
+                "ratio": 83.82193268186754,
+                "token_sort_ratio": 82.95331161780673,
+                "token_set_ratio": 86.01398601398601
+              }
+            },
+            {
+              "cve": "CVE-2024-11230",
+              "similarity_scores": {
+                "ratio": 85.22114347357066,
+                "token_sort_ratio": 83.71089536138079,
+                "token_set_ratio": 88.33333333333333
+              }
+            },
+            {
+              "cve": "CVE-2024-3074",
+              "similarity_scores": {
+                "ratio": 89.171974522293,
+                "token_sort_ratio": 86.41188959660298,
+                "token_set_ratio": 92.5684485006519
+              }
+            },
+            {
+              "cve": "CVE-2024-9064",
+              "similarity_scores": {
+                "ratio": 81.72757475083057,
+                "token_sort_ratio": 80.17718715393134,
+                "token_set_ratio": 86.50306748466258
+              }
+            },
+            {
+              "cve": "CVE-2024-4619",
+              "similarity_scores": {
+                "ratio": 81.97734294541709,
+                "token_sort_ratio": 79.71163748712668,
+                "token_set_ratio": 85.56430446194226
+              }
+            },
+            {
+              "cve": "CVE-2024-2117",
+              "similarity_scores": {
+                "ratio": 87.43509865005193,
+                "token_sort_ratio": 83.07372793354102,
+                "token_set_ratio": 92.71356783919597
+              }
+            },
+            {
+              "cve": "CVE-2024-2120",
+              "similarity_scores": {
+                "ratio": 89.66900702106318,
+                "token_sort_ratio": 85.85757271815446,
+                "token_set_ratio": 92.47058823529412
+              }
+            },
+            {
+              "cve": "CVE-2024-10453",
+              "similarity_scores": {
+                "ratio": 87.38647830474268,
+                "token_sort_ratio": 84.35923309788093,
+                "token_set_ratio": 88.77928483353884
+              }
+            },
+            {
+              "cve": "CVE-2024-5416",
+              "similarity_scores": {
+                "ratio": 78.0,
+                "token_sort_ratio": 76.2,
+                "token_set_ratio": 81.80815876515987
+              }
+            },
+            {
+              "cve": "CVE-2024-8236",
+              "similarity_scores": {
+                "ratio": 83.35056876938987,
+                "token_sort_ratio": 79.62771458117889,
+                "token_set_ratio": 85.25469168900804
+              }
+            },
+            {
+              "cve": "CVE-2024-4107",
+              "similarity_scores": {
+                "ratio": 83.29853862212944,
+                "token_sort_ratio": 81.83716075156576,
+                "token_set_ratio": 87.04939919893191
+              }
+            },
+            {
+              "cve": "CVE-2024-2121",
+              "similarity_scores": {
+                "ratio": 91.34020618556701,
+                "token_sort_ratio": 87.83505154639175,
+                "token_set_ratio": 93.71980676328502
+              }
+            },
+            {
+              "cve": "CVE-2024-2781",
+              "similarity_scores": {
+                "ratio": 83.27939590075513,
+                "token_sort_ratio": 81.55339805825243,
+                "token_set_ratio": 85.41666666666667
+              }
+            },
+            {
+              "cve": "CVE-2024-1364",
+              "similarity_scores": {
+                "ratio": 90.35639412997904,
+                "token_sort_ratio": 86.37316561844864,
+                "token_set_ratio": 93.92812887236678
+              }
+            },
+            {
+              "cve": "CVE-2024-2335",
+              "similarity_scores": {
+                "ratio": 90.06342494714588,
+                "token_sort_ratio": 88.16067653276956,
+                "token_set_ratio": 94.8685857321652
+              }
+            },
+            {
+              "cve": "CVE-2024-1239",
+              "similarity_scores": {
+                "ratio": 84.05172413793103,
+                "token_sort_ratio": 80.81896551724138,
+                "token_set_ratio": 86.15819209039549
+              }
+            },
+            {
+              "cve": "CVE-2024-1238",
+              "similarity_scores": {
+                "ratio": 83.69565217391303,
+                "token_sort_ratio": 80.8695652173913,
+                "token_set_ratio": 85.83690987124464
+              }
+            },
+            {
+              "cve": "CVE-2024-2803",
+              "similarity_scores": {
+                "ratio": 88.02521008403362,
+                "token_sort_ratio": 84.03361344537815,
+                "token_set_ratio": 90.8150064683053
+              }
+            },
+            {
+              "cve": "CVE-2024-3650",
+              "similarity_scores": {
+                "ratio": 81.60173160173161,
+                "token_sort_ratio": 77.27272727272727,
+                "token_set_ratio": 86.33093525179856
+              }
+            },
+            {
+              "cve": "CVE-2024-2042",
+              "similarity_scores": {
+                "ratio": 84.51612903225806,
+                "token_sort_ratio": 80.43010752688173,
+                "token_set_ratio": 87.96680497925311
+              }
+            },
+            {
+              "cve": "CVE-2024-10091",
+              "similarity_scores": {
+                "ratio": 87.7997914494265,
+                "token_sort_ratio": 84.46298227320125,
+                "token_set_ratio": 90.0
+              }
+            },
+            {
+              "cve": "CVE-2024-8546",
+              "similarity_scores": {
+                "ratio": 89.44618599791013,
+                "token_sort_ratio": 85.47544409613374,
+                "token_set_ratio": 91.4866581956798
+              }
+            },
+            {
+              "cve": "CVE-2024-7064",
+              "similarity_scores": {
+                "ratio": 84.48844884488449,
+                "token_sort_ratio": 83.82838283828383,
+                "token_set_ratio": 90.08498583569406
+              }
+            },
+            {
+              "cve": "CVE-2024-3598",
+              "similarity_scores": {
+                "ratio": 89.30817610062893,
+                "token_sort_ratio": 87.0020964360587,
+                "token_set_ratio": 91.83673469387755
+              }
+            },
+            {
+              "cve": "CVE-2024-4452",
+              "similarity_scores": {
+                "ratio": 84.7084708470847,
+                "token_sort_ratio": 84.7084708470847,
+                "token_set_ratio": 91.83098591549296
+              }
+            },
+            {
+              "cve": "CVE-2024-9444",
+              "similarity_scores": {
+                "ratio": 81.57033805888767,
+                "token_sort_ratio": 78.51690294438386,
+                "token_set_ratio": 84.68468468468468
+              }
+            },
+            {
+              "cve": "CVE-2024-11935",
+              "similarity_scores": {
+                "ratio": 85.0,
+                "token_sort_ratio": 82.6086956521739,
+                "token_set_ratio": 89.20056100981768
+              }
+            },
+            {
+              "cve": "CVE-2024-1282",
+              "similarity_scores": {
+                "ratio": 91.38804457953394,
+                "token_sort_ratio": 89.36170212765957,
+                "token_set_ratio": 92.93413173652695
+              }
+            },
+            {
+              "cve": "CVE-2024-8747",
+              "similarity_scores": {
+                "ratio": 89.53367875647669,
+                "token_sort_ratio": 87.66839378238342,
+                "token_set_ratio": 91.99491740787802
+              }
+            },
+            {
+              "cve": "CVE-2024-11945",
+              "similarity_scores": {
+                "ratio": 85.11576626240353,
+                "token_sort_ratio": 83.57221609702316,
+                "token_set_ratio": 90.85714285714286
+              }
+            },
+            {
+              "cve": "CVE-2024-11195",
+              "similarity_scores": {
+                "ratio": 89.4575230296827,
+                "token_sort_ratio": 86.79631525076765,
+                "token_set_ratio": 90.57527539779682
+              }
+            },
+            {
+              "cve": "CVE-2023-4995",
+              "similarity_scores": {
+                "ratio": 90.03215434083602,
+                "token_sort_ratio": 88.31725616291533,
+                "token_set_ratio": 96.1734693877551
+              }
+            },
+            {
+              "cve": "CVE-2024-9451",
+              "similarity_scores": {
+                "ratio": 84.14239482200647,
+                "token_sort_ratio": 82.63214670981661,
+                "token_set_ratio": 88.8268156424581
+              }
+            },
+            {
+              "cve": "CVE-2024-12509",
+              "similarity_scores": {
+                "ratio": 90.85173501577287,
+                "token_sort_ratio": 89.58990536277602,
+                "token_set_ratio": 93.55246523388116
+              }
+            },
+            {
+              "cve": "CVE-2024-11203",
+              "similarity_scores": {
+                "ratio": 80.11472275334609,
+                "token_sort_ratio": 78.39388145315488,
+                "token_set_ratio": 83.01404853128992
+              }
+            },
+            {
+              "cve": "CVE-2024-2688",
+              "similarity_scores": {
+                "ratio": 82.25352112676056,
+                "token_sort_ratio": 76.8075117370892,
+                "token_set_ratio": 86.77379480840544
+              }
+            },
+            {
+              "cve": "CVE-2024-2468",
+              "similarity_scores": {
+                "ratio": 82.9090909090909,
+                "token_sort_ratio": 77.27272727272727,
+                "token_set_ratio": 90.5615292712067
+              }
+            },
+            {
+              "cve": "CVE-2024-4316",
+              "similarity_scores": {
+                "ratio": 79.56989247311827,
+                "token_sort_ratio": 76.05083088954056,
+                "token_set_ratio": 81.95876288659794
+              }
+            },
+            {
+              "cve": "CVE-2024-3244",
+              "similarity_scores": {
+                "ratio": 84.52270620945319,
+                "token_sort_ratio": 80.63021316033364,
+                "token_set_ratio": 89.3719806763285
+              }
+            },
+            {
+              "cve": "CVE-2024-2128",
+              "similarity_scores": {
+                "ratio": 85.98306679209784,
+                "token_sort_ratio": 80.52681091251176,
+                "token_set_ratio": 91.725768321513
+              }
+            },
+            {
+              "cve": "CVE-2024-1802",
+              "similarity_scores": {
+                "ratio": 84.05253283302063,
+                "token_sort_ratio": 79.36210131332082,
+                "token_set_ratio": 90.16786570743406
+              }
+            },
+            {
+              "cve": "CVE-2024-3245",
+              "similarity_scores": {
+                "ratio": 83.69462770970783,
+                "token_sort_ratio": 79.35909519321395,
+                "token_set_ratio": 88.01955990220048
+              }
+            },
+            {
+              "cve": "CVE-2023-4283",
+              "similarity_scores": {
+                "ratio": 90.71729957805907,
+                "token_sort_ratio": 89.87341772151899,
+                "token_set_ratio": 95.89041095890411
+              }
+            },
+            {
+              "cve": "CVE-2024-3984",
+              "similarity_scores": {
+                "ratio": 90.10989010989012,
+                "token_sort_ratio": 89.5104895104895,
+                "token_set_ratio": 91.67567567567568
+              }
+            },
+            {
+              "cve": "CVE-2024-5061",
+              "similarity_scores": {
+                "ratio": 82.80922431865828,
+                "token_sort_ratio": 79.66457023060796,
+                "token_set_ratio": 85.20547945205479
+              }
+            },
+            {
+              "cve": "CVE-2024-2840",
+              "similarity_scores": {
+                "ratio": 77.59562841530054,
+                "token_sort_ratio": 74.97267759562843,
+                "token_set_ratio": 81.69014084507043
+              }
+            },
+            {
+              "cve": "CVE-2024-7611",
+              "similarity_scores": {
+                "ratio": 86.3136863136863,
+                "token_sort_ratio": 81.11888111888112,
+                "token_set_ratio": 86.77379480840544
+              }
+            },
+            {
+              "cve": "CVE-2024-3680",
+              "similarity_scores": {
+                "ratio": 81.96037539103233,
+                "token_sort_ratio": 78.41501564129302,
+                "token_set_ratio": 83.10810810810811
+              }
+            },
+            {
+              "cve": "CVE-2024-3831",
+              "similarity_scores": {
+                "ratio": 83.06709265175719,
+                "token_sort_ratio": 79.44621938232162,
+                "token_set_ratio": 84.03361344537815
+              }
+            },
+            {
+              "cve": "CVE-2024-4385",
+              "similarity_scores": {
+                "ratio": 83.6644591611479,
+                "token_sort_ratio": 83.22295805739515,
+                "token_set_ratio": 91.70182841068917
+              }
+            },
+            {
+              "cve": "CVE-2024-8961",
+              "similarity_scores": {
+                "ratio": 81.42999006951341,
+                "token_sort_ratio": 77.06057596822245,
+                "token_set_ratio": 82.07343412526998
+              }
+            },
+            {
+              "cve": "CVE-2024-8742",
+              "similarity_scores": {
+                "ratio": 85.41266794625719,
+                "token_sort_ratio": 81.95777351247601,
+                "token_set_ratio": 89.1041162227603
+              }
+            },
+            {
+              "cve": "CVE-2024-2650",
+              "similarity_scores": {
+                "ratio": 79.33398628795298,
+                "token_sort_ratio": 75.41625857002938,
+                "token_set_ratio": 81.53681963713981
+              }
+            },
+            {
+              "cve": "CVE-2024-1276",
+              "similarity_scores": {
+                "ratio": 80.52208835341365,
+                "token_sort_ratio": 77.10843373493977,
+                "token_set_ratio": 82.91621327529924
+              }
+            },
+            {
+              "cve": "CVE-2024-2623",
+              "similarity_scores": {
+                "ratio": 79.96011964107677,
+                "token_sort_ratio": 75.57328015952145,
+                "token_set_ratio": 81.6414686825054
+              }
+            },
+            {
+              "cve": "CVE-2024-5189",
+              "similarity_scores": {
+                "ratio": 81.85483870967742,
+                "token_sort_ratio": 77.82258064516128,
+                "token_set_ratio": 83.42480790340285
+              }
+            },
+            {
+              "cve": "CVE-2024-4156",
+              "similarity_scores": {
+                "ratio": 80.9950248756219,
+                "token_sort_ratio": 78.00995024875623,
+                "token_set_ratio": 83.76623376623377
+              }
+            },
+            {
+              "cve": "CVE-2024-4003",
+              "similarity_scores": {
+                "ratio": 77.7992277992278,
+                "token_sort_ratio": 74.51737451737452,
+                "token_set_ratio": 79.957805907173
+              }
+            },
+            {
+              "cve": "CVE-2024-1236",
+              "similarity_scores": {
+                "ratio": 79.84111221449851,
+                "token_sort_ratio": 76.46474677259185,
+                "token_set_ratio": 81.72043010752688
+              }
+            },
+            {
+              "cve": "CVE-2024-7092",
+              "similarity_scores": {
+                "ratio": 81.71828171828172,
+                "token_sort_ratio": 77.52247752247752,
+                "token_set_ratio": 82.6086956521739
+              }
+            },
+            {
+              "cve": "CVE-2024-4448",
+              "similarity_scores": {
+                "ratio": 82.5925925925926,
+                "token_sort_ratio": 78.7037037037037,
+                "token_set_ratio": 88.01955990220048
+              }
+            },
+            {
+              "cve": "CVE-2024-4449",
+              "similarity_scores": {
+                "ratio": 80.49866429207479,
+                "token_sort_ratio": 78.36153161175423,
+                "token_set_ratio": 88.01955990220048
+              }
+            },
+            {
+              "cve": "CVE-2024-1172",
+              "similarity_scores": {
+                "ratio": 84.91508491508492,
+                "token_sort_ratio": 80.31968031968032,
+                "token_set_ratio": 87.33087330873309
+              }
+            },
+            {
+              "cve": "CVE-2024-1537",
+              "similarity_scores": {
+                "ratio": 88.15533980582524,
+                "token_sort_ratio": 83.10679611650485,
+                "token_set_ratio": 91.725768321513
+              }
+            },
+            {
+              "cve": "CVE-2024-1536",
+              "similarity_scores": {
+                "ratio": 87.81431334622825,
+                "token_sort_ratio": 82.97872340425532,
+                "token_set_ratio": 91.725768321513
+              }
+            },
+            {
+              "cve": "CVE-2024-8440",
+              "similarity_scores": {
+                "ratio": 86.07594936708861,
+                "token_sort_ratio": 81.20740019474196,
+                "token_set_ratio": 88.01955990220048
+              }
+            },
+            {
+              "cve": "CVE-2024-3728",
+              "similarity_scores": {
+                "ratio": 84.38978240302744,
+                "token_sort_ratio": 80.79470198675497,
+                "token_set_ratio": 89.1041162227603
+              }
+            },
+            {
+              "cve": "CVE-2024-1171",
+              "similarity_scores": {
+                "ratio": 84.75247524752476,
+                "token_sort_ratio": 81.98019801980199,
+                "token_set_ratio": 88.42874543239951
+              }
+            },
+            {
+              "cve": "CVE-2024-4275",
+              "similarity_scores": {
+                "ratio": 85.79710144927536,
+                "token_sort_ratio": 80.19323671497585,
+                "token_set_ratio": 88.01955990220048
+              }
+            },
+            {
+              "cve": "CVE-2024-5073",
+              "similarity_scores": {
+                "ratio": 81.80904522613065,
+                "token_sort_ratio": 77.78894472361809,
+                "token_set_ratio": 83.36980306345733
+              }
+            },
+            {
+              "cve": "CVE-2024-4624",
+              "similarity_scores": {
+                "ratio": 80.63555114200595,
+                "token_sort_ratio": 78.05362462760675,
+                "token_set_ratio": 83.58531317494601
+              }
+            },
+            {
+              "cve": "CVE-2024-3333",
+              "similarity_scores": {
+                "ratio": 88.05815160955348,
+                "token_sort_ratio": 83.28141225337487,
+                "token_set_ratio": 90.0
+              }
+            },
+            {
+              "cve": "CVE-2024-5086",
+              "similarity_scores": {
+                "ratio": 85.35885167464114,
+                "token_sort_ratio": 80.19138755980862,
+                "token_set_ratio": 88.01955990220048
+              }
+            },
+            {
+              "cve": "CVE-2024-3645",
+              "similarity_scores": {
+                "ratio": 86.86868686868688,
+                "token_sort_ratio": 84.64646464646465,
+                "token_set_ratio": 88.18380743982495
+              }
+            },
+            {
+              "cve": "CVE-2024-1854",
+              "similarity_scores": {
+                "ratio": 81.96037539103233,
+                "token_sort_ratio": 78.6235662148071,
+                "token_set_ratio": 82.58928571428572
+              }
+            },
+            {
+              "cve": "CVE-2024-3818",
+              "similarity_scores": {
+                "ratio": 87.16417910447761,
+                "token_sort_ratio": 83.78109452736318,
+                "token_set_ratio": 88.01955990220048
+              }
+            },
+            {
+              "cve": "CVE-2024-2255",
+              "similarity_scores": {
+                "ratio": 88.25271470878579,
+                "token_sort_ratio": 84.89634748272458,
+                "token_set_ratio": 90.16786570743406
+              }
+            },
+            {
+              "cve": "CVE-2024-4891",
+              "similarity_scores": {
+                "ratio": 82.81573498964802,
+                "token_sort_ratio": 80.95238095238095,
+                "token_set_ratio": 85.42825361512791
+              }
+            },
+            {
+              "cve": "CVE-2024-4273",
+              "similarity_scores": {
+                "ratio": 90.6832298136646,
+                "token_sort_ratio": 87.99171842650104,
+                "token_set_ratio": 91.81141439205956
+              }
+            },
+            {
+              "cve": "CVE-2023-5470",
+              "similarity_scores": {
+                "ratio": 91.10396570203643,
+                "token_sort_ratio": 89.17470525187568,
+                "token_set_ratio": 97.22222222222223
+              }
+            },
+            {
+              "cve": "CVE-2024-11752",
+              "similarity_scores": {
+                "ratio": 89.64781216648879,
+                "token_sort_ratio": 88.58057630736393,
+                "token_set_ratio": 94.148244473342
+              }
+            },
+            {
+              "cve": "CVE-2024-10186",
+              "similarity_scores": {
+                "ratio": 90.60190073917634,
+                "token_sort_ratio": 89.33474128827878,
+                "token_set_ratio": 94.6969696969697
+              }
+            },
+            {
+              "cve": "CVE-2024-1320",
+              "similarity_scores": {
+                "ratio": 80.74398249452955,
+                "token_sort_ratio": 76.58643326039387,
+                "token_set_ratio": 85.58823529411765
+              }
+            },
+            {
+              "cve": "CVE-2024-9865",
+              "similarity_scores": {
+                "ratio": 76.38297872340425,
+                "token_sort_ratio": 70.63829787234043,
+                "token_set_ratio": 79.1044776119403
+              }
+            },
+            {
+              "cve": "CVE-2024-4669",
+              "similarity_scores": {
+                "ratio": 86.29441624365482,
+                "token_sort_ratio": 83.04568527918782,
+                "token_set_ratio": 87.96992481203007
+              }
+            },
+            {
+              "cve": "CVE-2024-2111",
+              "similarity_scores": {
+                "ratio": 85.53590010405827,
+                "token_sort_ratio": 82.41415192507804,
+                "token_set_ratio": 87.79220779220779
+              }
+            },
+            {
+              "cve": "CVE-2024-3492",
+              "similarity_scores": {
+                "ratio": 86.9140625,
+                "token_sort_ratio": 83.7890625,
+                "token_set_ratio": 87.5
+              }
+            },
+            {
+              "cve": "CVE-2024-1414",
+              "similarity_scores": {
+                "ratio": 84.64017185821697,
+                "token_sort_ratio": 80.55853920515574,
+                "token_set_ratio": 88.70292887029288
+              }
+            },
+            {
+              "cve": "CVE-2024-1413",
+              "similarity_scores": {
+                "ratio": 84.54935622317596,
+                "token_sort_ratio": 80.25751072961373,
+                "token_set_ratio": 88.21081830790568
+              }
+            },
+            {
+              "cve": "CVE-2024-2028",
+              "similarity_scores": {
+                "ratio": 84.21052631578947,
+                "token_sort_ratio": 81.41783029001074,
+                "token_set_ratio": 88.33333333333333
+              }
+            },
+            {
+              "cve": "CVE-2024-2751",
+              "similarity_scores": {
+                "ratio": 81.98103266596416,
+                "token_sort_ratio": 78.39831401475237,
+                "token_set_ratio": 81.63265306122449
+              }
+            },
+            {
+              "cve": "CVE-2024-3985",
+              "similarity_scores": {
+                "ratio": 88.65979381443299,
+                "token_sort_ratio": 85.15463917525773,
+                "token_set_ratio": 89.68152866242038
+              }
+            },
+            {
+              "cve": "CVE-2024-2503",
+              "similarity_scores": {
+                "ratio": 83.09859154929578,
+                "token_sort_ratio": 81.48893360160966,
+                "token_set_ratio": 85.68281938325991
+              }
+            },
+            {
+              "cve": "CVE-2024-4618",
+              "similarity_scores": {
+                "ratio": 87.22741433021807,
+                "token_sort_ratio": 84.31983385254414,
+                "token_set_ratio": 87.4859075535513
+              }
+            },
+            {
+              "cve": "CVE-2024-2750",
+              "similarity_scores": {
+                "ratio": 82.5531914893617,
+                "token_sort_ratio": 81.27659574468085,
+                "token_set_ratio": 84.69505178365938
+              }
+            },
+            {
+              "cve": "CVE-2024-9386",
+              "similarity_scores": {
+                "ratio": 79.14893617021276,
+                "token_sort_ratio": 75.53191489361703,
+                "token_set_ratio": 81.66915052160954
+              }
+            }
+          ]
+        },
+        {
+          "cwe": "CWE-79",
+          "count": 33,
+          "confidence": 0.1864406779661017,
+          "evidence": [
+            {
+              "cve": "CVE-2023-5742",
+              "similarity_scores": {
+                "ratio": 92.56198347107438,
+                "token_sort_ratio": 90.9090909090909,
+                "token_set_ratio": 96.83698296836982
+              }
+            },
+            {
+              "cve": "CVE-2024-5554",
+              "similarity_scores": {
+                "ratio": 80.71570576540755,
+                "token_sort_ratio": 79.32405566600397,
+                "token_set_ratio": 81.95876288659794
+              }
+            },
+            {
+              "cve": "CVE-2024-5555",
+              "similarity_scores": {
+                "ratio": 80.3960396039604,
+                "token_sort_ratio": 80.19801980198021,
+                "token_set_ratio": 81.95876288659794
+              }
+            },
+            {
+              "cve": "CVE-2024-0834",
+              "similarity_scores": {
+                "ratio": 83.93442622950819,
+                "token_sort_ratio": 81.53005464480874,
+                "token_set_ratio": 86.45533141210375
+              }
+            },
+            {
+              "cve": "CVE-2024-2092",
+              "similarity_scores": {
+                "ratio": 91.44050104384134,
+                "token_sort_ratio": 87.89144050104383,
+                "token_set_ratio": 95.09803921568627
+              }
+            },
+            {
+              "cve": "CVE-2024-4569",
+              "similarity_scores": {
+                "ratio": 84.53159041394336,
+                "token_sort_ratio": 83.66013071895425,
+                "token_set_ratio": 90.68150208623088
+              }
+            },
+            {
+              "cve": "CVE-2024-4570",
+              "similarity_scores": {
+                "ratio": 84.53159041394336,
+                "token_sort_ratio": 83.66013071895425,
+                "token_set_ratio": 90.68150208623088
+              }
+            },
+            {
+              "cve": "CVE-2024-3638",
+              "similarity_scores": {
+                "ratio": 85.15240904621434,
+                "token_sort_ratio": 82.59587020648968,
+                "token_set_ratio": 88.01955990220048
+              }
+            },
+            {
+              "cve": "CVE-2024-3639",
+              "similarity_scores": {
+                "ratio": 88.98128898128898,
+                "token_sort_ratio": 87.73388773388773,
+                "token_set_ratio": 90.9090909090909
+              }
+            },
+            {
+              "cve": "CVE-2024-0448",
+              "similarity_scores": {
+                "ratio": 84.3010752688172,
+                "token_sort_ratio": 83.22580645161291,
+                "token_set_ratio": 87.63736263736264
+              }
+            },
+            {
+              "cve": "CVE-2024-2926",
+              "similarity_scores": {
+                "ratio": 89.49579831932773,
+                "token_sort_ratio": 86.97478991596638,
+                "token_set_ratio": 92.07161125319693
+              }
+            },
+            {
+              "cve": "CVE-2024-5757",
+              "similarity_scores": {
+                "ratio": 83.60995850622407,
+                "token_sort_ratio": 84.23236514522821,
+                "token_set_ratio": 86.67413213885779
+              }
+            },
+            {
+              "cve": "CVE-2024-5263",
+              "similarity_scores": {
+                "ratio": 88.44953173777316,
+                "token_sort_ratio": 85.74401664932361,
+                "token_set_ratio": 91.4866581956798
+              }
+            },
+            {
+              "cve": "CVE-2024-5152",
+              "similarity_scores": {
+                "ratio": 85.00539374325781,
+                "token_sort_ratio": 81.76914778856526,
+                "token_set_ratio": 88.8268156424581
+              }
+            },
+            {
+              "cve": "CVE-2024-4615",
+              "similarity_scores": {
+                "ratio": 80.73394495412845,
+                "token_sort_ratio": 76.5137614678899,
+                "token_set_ratio": 86.77379480840544
+              }
+            },
+            {
+              "cve": "CVE-2023-7070",
+              "similarity_scores": {
+                "ratio": 91.85929648241206,
+                "token_sort_ratio": 88.44221105527639,
+                "token_set_ratio": 93.31770222743259
+              }
+            },
+            {
+              "cve": "CVE-2024-5571",
+              "similarity_scores": {
+                "ratio": 81.2043795620438,
+                "token_sort_ratio": 77.1897810218978,
+                "token_set_ratio": 88.01955990220048
+              }
+            },
+            {
+              "cve": "CVE-2024-1425",
+              "similarity_scores": {
+                "ratio": 84.57899716177862,
+                "token_sort_ratio": 80.22705771050143,
+                "token_set_ratio": 90.5615292712067
+              }
+            },
+            {
+              "cve": "CVE-2024-1565",
+              "similarity_scores": {
+                "ratio": 85.44061302681992,
+                "token_sort_ratio": 80.26819923371647,
+                "token_set_ratio": 90.5615292712067
+              }
+            },
+            {
+              "cve": "CVE-2023-6986",
+              "similarity_scores": {
+                "ratio": 84.36911487758945,
+                "token_sort_ratio": 81.35593220338984,
+                "token_set_ratio": 91.0820451843044
+              }
+            },
+            {
+              "cve": "CVE-2024-1349",
+              "similarity_scores": {
+                "ratio": 87.15509039010466,
+                "token_sort_ratio": 83.5394862036156,
+                "token_set_ratio": 91.725768321513
+              }
+            },
+            {
+              "cve": "CVE-2024-5645",
+              "similarity_scores": {
+                "ratio": 82.94243070362474,
+                "token_sort_ratio": 81.02345415778251,
+                "token_set_ratio": 87.4828060522696
+              }
+            },
+            {
+              "cve": "CVE-2024-0954",
+              "similarity_scores": {
+                "ratio": 83.28611898016997,
+                "token_sort_ratio": 78.9423984891407,
+                "token_set_ratio": 88.96969696969697
+              }
+            },
+            {
+              "cve": "CVE-2023-7044",
+              "similarity_scores": {
+                "ratio": 80.7415036045314,
+                "token_sort_ratio": 76.62203913491246,
+                "token_set_ratio": 83.2214765100671
+              }
+            },
+            {
+              "cve": "CVE-2024-5188",
+              "similarity_scores": {
+                "ratio": 80.79207920792079,
+                "token_sort_ratio": 76.83168316831683,
+                "token_set_ratio": 82.88482238966631
+              }
+            },
+            {
+              "cve": "CVE-2024-0586",
+              "similarity_scores": {
+                "ratio": 84.54011741682974,
+                "token_sort_ratio": 78.47358121330724,
+                "token_set_ratio": 87.74509803921569
+              }
+            },
+            {
+              "cve": "CVE-2024-0585",
+              "similarity_scores": {
+                "ratio": 85.29698149951315,
+                "token_sort_ratio": 81.79162609542357,
+                "token_set_ratio": 90.0360144057623
+              }
+            },
+            {
+              "cve": "CVE-2024-5612",
+              "similarity_scores": {
+                "ratio": 81.94726166328601,
+                "token_sort_ratio": 78.49898580121703,
+                "token_set_ratio": 82.7661909989023
+              }
+            },
+            {
+              "cve": "CVE-2023-7071",
+              "similarity_scores": {
+                "ratio": 83.00720906282183,
+                "token_sort_ratio": 80.53553038105046,
+                "token_set_ratio": 84.070796460177
+              }
+            },
+            {
+              "cve": "CVE-2023-2406",
+              "similarity_scores": {
+                "ratio": 75.68590350047305,
+                "token_sort_ratio": 76.25354777672658,
+                "token_set_ratio": 80.84210526315789
+              }
+            },
+            {
+              "cve": "CVE-2024-0823",
+              "similarity_scores": {
+                "ratio": 90.38262668045502,
+                "token_sort_ratio": 87.28024819027922,
+                "token_set_ratio": 93.69592088998763
+              }
+            },
+            {
+              "cve": "CVE-2024-0824",
+              "similarity_scores": {
+                "ratio": 84.09818569903949,
+                "token_sort_ratio": 81.32337246531483,
+                "token_set_ratio": 87.60330578512396
+              }
+            },
+            {
+              "cve": "CVE-2024-5332",
+              "similarity_scores": {
+                "ratio": 88.75,
+                "token_sort_ratio": 86.04166666666666,
+                "token_set_ratio": 90.48843187660668
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "70": {
+      "similar_cves_count": 146,
+      "predictions": [
+        {
+          "cwe": "NoCWE",
+          "count": 116,
+          "confidence": 0.7945205479452054,
+          "evidence": [
+            {
+              "cve": "CVE-2024-4619",
+              "similarity_scores": {
+                "ratio": 85.64971751412429,
+                "token_sort_ratio": 84.0677966101695,
+                "token_set_ratio": 90.83333333333333
+              }
+            },
+            {
+              "cve": "CVE-2024-0506",
+              "similarity_scores": {
+                "ratio": 80.68068068068068,
+                "token_sort_ratio": 80.48048048048048,
+                "token_set_ratio": 84.19654714475432
+              }
+            },
+            {
+              "cve": "CVE-2024-2117",
+              "similarity_scores": {
+                "ratio": 87.79443254817987,
+                "token_sort_ratio": 88.86509635974305,
+                "token_set_ratio": 91.54113557358053
+              }
+            },
+            {
+              "cve": "CVE-2024-2120",
+              "similarity_scores": {
+                "ratio": 89.87603305785123,
+                "token_sort_ratio": 89.25619834710744,
+                "token_set_ratio": 92.27323628219484
+              }
+            },
+            {
+              "cve": "CVE-2024-10453",
+              "similarity_scores": {
+                "ratio": 90.64449064449065,
+                "token_sort_ratio": 88.56548856548856,
+                "token_set_ratio": 92.87469287469287
+              }
+            },
+            {
+              "cve": "CVE-2024-5416",
+              "similarity_scores": {
+                "ratio": 82.18331616889805,
+                "token_sort_ratio": 82.389289392379,
+                "token_set_ratio": 86.32768361581921
+              }
+            },
+            {
+              "cve": "CVE-2024-8236",
+              "similarity_scores": {
+                "ratio": 93.60341151385927,
+                "token_sort_ratio": 93.1769722814499,
+                "token_set_ratio": 96.3680387409201
+              }
+            },
+            {
+              "cve": "CVE-2024-4107",
+              "similarity_scores": {
+                "ratio": 96.87836383207751,
+                "token_sort_ratio": 95.80193756727664,
+                "token_set_ratio": 97.20534629404617
+              }
+            },
+            {
+              "cve": "CVE-2024-1521",
+              "similarity_scores": {
+                "ratio": 77.38883632923368,
+                "token_sort_ratio": 76.44276253547777,
+                "token_set_ratio": 91.54228855721394
+              }
+            },
+            {
+              "cve": "CVE-2024-2121",
+              "similarity_scores": {
+                "ratio": 86.07863974495218,
+                "token_sort_ratio": 86.9287991498406,
+                "token_set_ratio": 91.0958904109589
+              }
+            },
+            {
+              "cve": "CVE-2024-2781",
+              "similarity_scores": {
+                "ratio": 88.64142538975501,
+                "token_sort_ratio": 86.41425389755011,
+                "token_set_ratio": 91.58878504672897
+              }
+            },
+            {
+              "cve": "CVE-2024-1364",
+              "similarity_scores": {
+                "ratio": 86.27027027027026,
+                "token_sort_ratio": 87.56756756756756,
+                "token_set_ratio": 90.74074074074073
+              }
+            },
+            {
+              "cve": "CVE-2024-2335",
+              "similarity_scores": {
+                "ratio": 84.18756815703381,
+                "token_sort_ratio": 83.96946564885496,
+                "token_set_ratio": 89.48598130841121
+              }
+            },
+            {
+              "cve": "CVE-2024-1239",
+              "similarity_scores": {
+                "ratio": 87.87541713014461,
+                "token_sort_ratio": 84.98331479421579,
+                "token_set_ratio": 91.37466307277629
+              }
+            },
+            {
+              "cve": "CVE-2024-1238",
+              "similarity_scores": {
+                "ratio": 89.11335578002245,
+                "token_sort_ratio": 87.09315375982042,
+                "token_set_ratio": 92.59757738896366
+              }
+            },
+            {
+              "cve": "CVE-2024-2803",
+              "similarity_scores": {
+                "ratio": 86.89057421451788,
+                "token_sort_ratio": 82.12351029252439,
+                "token_set_ratio": 89.52879581151832
+              }
+            },
+            {
+              "cve": "CVE-2024-3650",
+              "similarity_scores": {
+                "ratio": 86.25698324022346,
+                "token_sort_ratio": 81.7877094972067,
+                "token_set_ratio": 91.6323731138546
+              }
+            },
+            {
+              "cve": "CVE-2024-2042",
+              "similarity_scores": {
+                "ratio": 89.23418423973362,
+                "token_sort_ratio": 84.57269700332964,
+                "token_set_ratio": 92.99867899603699
+              }
+            },
+            {
+              "cve": "CVE-2024-10091",
+              "similarity_scores": {
+                "ratio": 86.45161290322581,
+                "token_sort_ratio": 83.01075268817203,
+                "token_set_ratio": 88.715953307393
+              }
+            },
+            {
+              "cve": "CVE-2024-8546",
+              "similarity_scores": {
+                "ratio": 85.99137931034483,
+                "token_sort_ratio": 82.54310344827587,
+                "token_set_ratio": 88.94668400520156
+              }
+            },
+            {
+              "cve": "CVE-2023-6525",
+              "similarity_scores": {
+                "ratio": 77.04590818363273,
+                "token_sort_ratio": 74.8502994011976,
+                "token_set_ratio": 85.71428571428571
+              }
+            },
+            {
+              "cve": "CVE-2024-7064",
+              "similarity_scores": {
+                "ratio": 90.22727272727272,
+                "token_sort_ratio": 86.81818181818181,
+                "token_set_ratio": 93.6986301369863
+              }
+            },
+            {
+              "cve": "CVE-2024-3598",
+              "similarity_scores": {
+                "ratio": 85.4054054054054,
+                "token_sort_ratio": 83.02702702702702,
+                "token_set_ratio": 87.83068783068784
+              }
+            },
+            {
+              "cve": "CVE-2024-4452",
+              "similarity_scores": {
+                "ratio": 92.04545454545455,
+                "token_sort_ratio": 90.22727272727272,
+                "token_set_ratio": 97.32620320855615
+              }
+            },
+            {
+              "cve": "CVE-2024-9444",
+              "similarity_scores": {
+                "ratio": 84.68468468468468,
+                "token_sort_ratio": 80.85585585585586,
+                "token_set_ratio": 90.28571428571429
+              }
+            },
+            {
+              "cve": "CVE-2024-11935",
+              "similarity_scores": {
+                "ratio": 88.88888888888889,
+                "token_sort_ratio": 86.19528619528619,
+                "token_set_ratio": 94.24364123159305
+              }
+            },
+            {
+              "cve": "CVE-2024-1282",
+              "similarity_scores": {
+                "ratio": 83.50730688935282,
+                "token_sort_ratio": 81.21085594989562,
+                "token_set_ratio": 87.20271800679501
+              }
+            },
+            {
+              "cve": "CVE-2024-8747",
+              "similarity_scores": {
+                "ratio": 82.9059829059829,
+                "token_sort_ratio": 79.27350427350427,
+                "token_set_ratio": 86.51535380507343
+              }
+            },
+            {
+              "cve": "CVE-2024-11945",
+              "similarity_scores": {
+                "ratio": 89.97722095671982,
+                "token_sort_ratio": 87.01594533029613,
+                "token_set_ratio": 95.91280653950953
+              }
+            },
+            {
+              "cve": "CVE-2024-2656",
+              "similarity_scores": {
+                "ratio": 76.0484622553588,
+                "token_sort_ratio": 73.25256290773532,
+                "token_set_ratio": 87.04663212435233
+              }
+            },
+            {
+              "cve": "CVE-2024-11195",
+              "similarity_scores": {
+                "ratio": 83.54430379746836,
+                "token_sort_ratio": 79.74683544303798,
+                "token_set_ratio": 86.45833333333333
+              }
+            },
+            {
+              "cve": "CVE-2023-4995",
+              "similarity_scores": {
+                "ratio": 82.96460176991151,
+                "token_sort_ratio": 83.4070796460177,
+                "token_set_ratio": 87.72413793103448
+              }
+            },
+            {
+              "cve": "CVE-2024-9451",
+              "similarity_scores": {
+                "ratio": 89.08685968819599,
+                "token_sort_ratio": 85.30066815144765,
+                "token_set_ratio": 92.43243243243244
+              }
+            },
+            {
+              "cve": "CVE-2024-12509",
+              "similarity_scores": {
+                "ratio": 84.81561822125813,
+                "token_sort_ratio": 81.77874186550976,
+                "token_set_ratio": 88.18061088977424
+              }
+            },
+            {
+              "cve": "CVE-2024-9346",
+              "similarity_scores": {
+                "ratio": 73.85984427141268,
+                "token_sort_ratio": 70.30033370411569,
+                "token_set_ratio": 75.65891472868216
+              }
+            },
+            {
+              "cve": "CVE-2024-11203",
+              "similarity_scores": {
+                "ratio": 83.38249754178958,
+                "token_sort_ratio": 79.44936086529006,
+                "token_set_ratio": 90.72681704260651
+              }
+            },
+            {
+              "cve": "CVE-2024-2688",
+              "similarity_scores": {
+                "ratio": 79.92277992277992,
+                "token_sort_ratio": 76.06177606177607,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2024-2468",
+              "similarity_scores": {
+                "ratio": 77.12418300653596,
+                "token_sort_ratio": 75.63025210084034,
+                "token_set_ratio": 87.04663212435233
+              }
+            },
+            {
+              "cve": "CVE-2024-4316",
+              "similarity_scores": {
+                "ratio": 83.90342052313883,
+                "token_sort_ratio": 81.08651911468813,
+                "token_set_ratio": 90.72681704260651
+              }
+            },
+            {
+              "cve": "CVE-2024-3244",
+              "similarity_scores": {
+                "ratio": 79.23809523809524,
+                "token_sort_ratio": 75.61904761904762,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2024-2128",
+              "similarity_scores": {
+                "ratio": 78.91682785299807,
+                "token_sort_ratio": 78.14313346228239,
+                "token_set_ratio": 87.04663212435233
+              }
+            },
+            {
+              "cve": "CVE-2024-1802",
+              "similarity_scores": {
+                "ratio": 78.88138862102218,
+                "token_sort_ratio": 78.68852459016394,
+                "token_set_ratio": 87.04663212435233
+              }
+            },
+            {
+              "cve": "CVE-2024-3245",
+              "similarity_scores": {
+                "ratio": 79.65116279069767,
+                "token_sort_ratio": 77.51937984496125,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2023-4283",
+              "similarity_scores": {
+                "ratio": 84.22198041349293,
+                "token_sort_ratio": 83.56909684439609,
+                "token_set_ratio": 87.63440860215054
+              }
+            },
+            {
+              "cve": "CVE-2024-3984",
+              "similarity_scores": {
+                "ratio": 82.71604938271605,
+                "token_sort_ratio": 78.80658436213992,
+                "token_set_ratio": 86.45833333333333
+              }
+            },
+            {
+              "cve": "CVE-2024-5061",
+              "similarity_scores": {
+                "ratio": 87.13513513513513,
+                "token_sort_ratio": 83.02702702702702,
+                "token_set_ratio": 88.85941644562334
+              }
+            },
+            {
+              "cve": "CVE-2024-2840",
+              "similarity_scores": {
+                "ratio": 78.78103837471784,
+                "token_sort_ratio": 74.7178329571106,
+                "token_set_ratio": 84.22664624808576
+              }
+            },
+            {
+              "cve": "CVE-2024-7611",
+              "similarity_scores": {
+                "ratio": 84.15637860082305,
+                "token_sort_ratio": 81.06995884773663,
+                "token_set_ratio": 89.05852417302799
+              }
+            },
+            {
+              "cve": "CVE-2024-3680",
+              "similarity_scores": {
+                "ratio": 86.02150537634408,
+                "token_sort_ratio": 82.58064516129032,
+                "token_set_ratio": 87.58169934640523
+              }
+            },
+            {
+              "cve": "CVE-2024-3831",
+              "similarity_scores": {
+                "ratio": 87.25274725274726,
+                "token_sort_ratio": 85.71428571428572,
+                "token_set_ratio": 90.47619047619048
+              }
+            },
+            {
+              "cve": "CVE-2024-4385",
+              "similarity_scores": {
+                "ratio": 90.76396807297606,
+                "token_sort_ratio": 89.62371721778791,
+                "token_set_ratio": 95.80514208389715
+              }
+            },
+            {
+              "cve": "CVE-2024-8961",
+              "similarity_scores": {
+                "ratio": 86.9120654396728,
+                "token_sort_ratio": 84.25357873210633,
+                "token_set_ratio": 90.72681704260651
+              }
+            },
+            {
+              "cve": "CVE-2024-8742",
+              "similarity_scores": {
+                "ratio": 82.32971372161894,
+                "token_sort_ratio": 79.56564659427443,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2024-2650",
+              "similarity_scores": {
+                "ratio": 82.66129032258065,
+                "token_sort_ratio": 81.0483870967742,
+                "token_set_ratio": 87.19275549805951
+              }
+            },
+            {
+              "cve": "CVE-2024-1276",
+              "similarity_scores": {
+                "ratio": 85.00517063081696,
+                "token_sort_ratio": 81.28231644260599,
+                "token_set_ratio": 86.75324675324676
+              }
+            },
+            {
+              "cve": "CVE-2024-2623",
+              "similarity_scores": {
+                "ratio": 84.39425051334702,
+                "token_sort_ratio": 82.34086242299794,
+                "token_set_ratio": 87.19275549805951
+              }
+            },
+            {
+              "cve": "CVE-2024-5189",
+              "similarity_scores": {
+                "ratio": 87.43509865005193,
+                "token_sort_ratio": 85.15057113187953,
+                "token_set_ratio": 90.72681704260651
+              }
+            },
+            {
+              "cve": "CVE-2024-4156",
+              "similarity_scores": {
+                "ratio": 88.52459016393442,
+                "token_sort_ratio": 86.0655737704918,
+                "token_set_ratio": 92.34567901234568
+              }
+            },
+            {
+              "cve": "CVE-2024-4003",
+              "similarity_scores": {
+                "ratio": 82.82025819265144,
+                "token_sort_ratio": 80.83416087388282,
+                "token_set_ratio": 87.19275549805951
+              }
+            },
+            {
+              "cve": "CVE-2024-1236",
+              "similarity_scores": {
+                "ratio": 84.66257668711657,
+                "token_sort_ratio": 82.61758691206545,
+                "token_set_ratio": 87.19275549805951
+              }
+            },
+            {
+              "cve": "CVE-2024-7092",
+              "similarity_scores": {
+                "ratio": 87.44855967078189,
+                "token_sort_ratio": 84.77366255144034,
+                "token_set_ratio": 90.72681704260651
+              }
+            },
+            {
+              "cve": "CVE-2024-4448",
+              "similarity_scores": {
+                "ratio": 80.11417697431018,
+                "token_sort_ratio": 77.25975261655566,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2024-4449",
+              "similarity_scores": {
+                "ratio": 77.6965265082267,
+                "token_sort_ratio": 73.85740402193784,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2024-1172",
+              "similarity_scores": {
+                "ratio": 84.97942386831275,
+                "token_sort_ratio": 83.7448559670782,
+                "token_set_ratio": 88.49104859335038
+              }
+            },
+            {
+              "cve": "CVE-2024-1537",
+              "similarity_scores": {
+                "ratio": 82.31768231768231,
+                "token_sort_ratio": 81.91808191808192,
+                "token_set_ratio": 87.04663212435233
+              }
+            },
+            {
+              "cve": "CVE-2024-1536",
+              "similarity_scores": {
+                "ratio": 82.38805970149255,
+                "token_sort_ratio": 81.39303482587064,
+                "token_set_ratio": 87.04663212435233
+              }
+            },
+            {
+              "cve": "CVE-2024-8440",
+              "similarity_scores": {
+                "ratio": 83.36673346693387,
+                "token_sort_ratio": 80.56112224448898,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2024-3728",
+              "similarity_scores": {
+                "ratio": 81.71206225680933,
+                "token_sort_ratio": 78.59922178988327,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2024-1171",
+              "similarity_scores": {
+                "ratio": 84.19979612640162,
+                "token_sort_ratio": 83.18042813455658,
+                "token_set_ratio": 88.49104859335038
+              }
+            },
+            {
+              "cve": "CVE-2024-4275",
+              "similarity_scores": {
+                "ratio": 83.1013916500994,
+                "token_sort_ratio": 80.11928429423459,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2024-5073",
+              "similarity_scores": {
+                "ratio": 86.12836438923395,
+                "token_sort_ratio": 82.19461697722568,
+                "token_set_ratio": 89.34010152284264
+              }
+            },
+            {
+              "cve": "CVE-2024-4624",
+              "similarity_scores": {
+                "ratio": 88.13905930470347,
+                "token_sort_ratio": 85.88957055214725,
+                "token_set_ratio": 91.40722291407224
+              }
+            },
+            {
+              "cve": "CVE-2024-3333",
+              "similarity_scores": {
+                "ratio": 85.01070663811564,
+                "token_sort_ratio": 82.01284796573876,
+                "token_set_ratio": 88.715953307393
+              }
+            },
+            {
+              "cve": "CVE-2024-5086",
+              "similarity_scores": {
+                "ratio": 82.08661417322834,
+                "token_sort_ratio": 79.33070866141733,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2024-3645",
+              "similarity_scores": {
+                "ratio": 82.41415192507804,
+                "token_sort_ratio": 80.5411030176899,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2024-1854",
+              "similarity_scores": {
+                "ratio": 86.02150537634408,
+                "token_sort_ratio": 85.59139784946237,
+                "token_set_ratio": 87.62886597938144
+              }
+            },
+            {
+              "cve": "CVE-2024-3818",
+              "similarity_scores": {
+                "ratio": 83.60655737704919,
+                "token_sort_ratio": 82.58196721311475,
+                "token_set_ratio": 88.348271446863
+              }
+            },
+            {
+              "cve": "CVE-2024-2255",
+              "similarity_scores": {
+                "ratio": 81.70731707317074,
+                "token_sort_ratio": 83.130081300813,
+                "token_set_ratio": 87.48387096774194
+              }
+            },
+            {
+              "cve": "CVE-2024-4891",
+              "similarity_scores": {
+                "ratio": 90.07470651013874,
+                "token_sort_ratio": 87.94023479188901,
+                "token_set_ratio": 92.74292742927429
+              }
+            },
+            {
+              "cve": "CVE-2024-4273",
+              "similarity_scores": {
+                "ratio": 84.95197438633937,
+                "token_sort_ratio": 79.82924226254002,
+                "token_set_ratio": 86.45833333333333
+              }
+            },
+            {
+              "cve": "CVE-2023-5470",
+              "similarity_scores": {
+                "ratio": 84.070796460177,
+                "token_sort_ratio": 82.96460176991151,
+                "token_set_ratio": 88.94952251023193
+              }
+            },
+            {
+              "cve": "CVE-2024-11752",
+              "similarity_scores": {
+                "ratio": 83.48017621145374,
+                "token_sort_ratio": 80.83700440528634,
+                "token_set_ratio": 88.64569083447333
+              }
+            },
+            {
+              "cve": "CVE-2024-10186",
+              "similarity_scores": {
+                "ratio": 84.74945533769062,
+                "token_sort_ratio": 81.69934640522875,
+                "token_set_ratio": 88.65153538050734
+              }
+            },
+            {
+              "cve": "CVE-2024-9866",
+              "similarity_scores": {
+                "ratio": 72.71062271062272,
+                "token_sort_ratio": 72.16117216117216,
+                "token_set_ratio": 83.73333333333333
+              }
+            },
+            {
+              "cve": "CVE-2024-1320",
+              "similarity_scores": {
+                "ratio": 83.61581920903956,
+                "token_sort_ratio": 76.8361581920904,
+                "token_set_ratio": 86.58892128279884
+              }
+            },
+            {
+              "cve": "CVE-2024-12024",
+              "similarity_scores": {
+                "ratio": 71.30600571973308,
+                "token_sort_ratio": 69.39942802669209,
+                "token_set_ratio": 77.69985974754559
+              }
+            },
+            {
+              "cve": "CVE-2024-9865",
+              "similarity_scores": {
+                "ratio": 77.71679473106477,
+                "token_sort_ratio": 72.22832052689353,
+                "token_set_ratio": 79.42925089179548
+              }
+            },
+            {
+              "cve": "CVE-2024-9864",
+              "similarity_scores": {
+                "ratio": 75.28916929547844,
+                "token_sort_ratio": 74.0273396424816,
+                "token_set_ratio": 80.22727272727272
+              }
+            },
+            {
+              "cve": "CVE-2024-4669",
+              "similarity_scores": {
+                "ratio": 83.05439330543933,
+                "token_sort_ratio": 80.5439330543933,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2024-2111",
+              "similarity_scores": {
+                "ratio": 85.4077253218884,
+                "token_sort_ratio": 83.90557939914163,
+                "token_set_ratio": 88.94009216589862
+              }
+            },
+            {
+              "cve": "CVE-2024-3492",
+              "similarity_scores": {
+                "ratio": 81.60804020100502,
+                "token_sort_ratio": 76.98492462311557,
+                "token_set_ratio": 85.26315789473685
+              }
+            },
+            {
+              "cve": "CVE-2024-0614",
+              "similarity_scores": {
+                "ratio": 79.5131845841785,
+                "token_sort_ratio": 76.47058823529412,
+                "token_set_ratio": 85.86387434554973
+              }
+            },
+            {
+              "cve": "CVE-2024-3489",
+              "similarity_scores": {
+                "ratio": 73.82256297918948,
+                "token_sort_ratio": 71.19386637458926,
+                "token_set_ratio": 76.14571092831963
+              }
+            },
+            {
+              "cve": "CVE-2024-1414",
+              "similarity_scores": {
+                "ratio": 88.24833702882484,
+                "token_sort_ratio": 84.92239467849224,
+                "token_set_ratio": 93.74167776298269
+              }
+            },
+            {
+              "cve": "CVE-2024-1413",
+              "similarity_scores": {
+                "ratio": 88.15060908084163,
+                "token_sort_ratio": 84.1638981173865,
+                "token_set_ratio": 93.24503311258277
+              }
+            },
+            {
+              "cve": "CVE-2024-2028",
+              "similarity_scores": {
+                "ratio": 88.02660753880266,
+                "token_sort_ratio": 84.25720620842571,
+                "token_set_ratio": 93.36870026525199
+              }
+            },
+            {
+              "cve": "CVE-2024-2751",
+              "similarity_scores": {
+                "ratio": 86.08695652173914,
+                "token_sort_ratio": 83.26086956521739,
+                "token_set_ratio": 88.13953488372093
+              }
+            },
+            {
+              "cve": "CVE-2024-3985",
+              "similarity_scores": {
+                "ratio": 84.59086078639744,
+                "token_sort_ratio": 82.6780021253985,
+                "token_set_ratio": 87.09256844850066
+              }
+            },
+            {
+              "cve": "CVE-2024-2503",
+              "similarity_scores": {
+                "ratio": 81.86528497409327,
+                "token_sort_ratio": 81.24352331606217,
+                "token_set_ratio": 86.75324675324676
+              }
+            },
+            {
+              "cve": "CVE-2024-4618",
+              "similarity_scores": {
+                "ratio": 85.01070663811564,
+                "token_sort_ratio": 82.44111349036403,
+                "token_set_ratio": 87.6300578034682
+              }
+            },
+            {
+              "cve": "CVE-2024-2750",
+              "similarity_scores": {
+                "ratio": 84.5225027442371,
+                "token_sort_ratio": 82.98572996706916,
+                "token_set_ratio": 87.3972602739726
+              }
+            },
+            {
+              "cve": "CVE-2024-9386",
+              "similarity_scores": {
+                "ratio": 81.44895718990121,
+                "token_sort_ratio": 76.83863885839737,
+                "token_set_ratio": 85.75539568345323
+              }
+            },
+            {
+              "cve": "CVE-2024-12405",
+              "similarity_scores": {
+                "ratio": 74.66367713004485,
+                "token_sort_ratio": 71.97309417040358,
+                "token_set_ratio": 77.53846153846155
+              }
+            },
+            {
+              "cve": "CVE-2024-4868",
+              "similarity_scores": {
+                "ratio": 83.89830508474576,
+                "token_sort_ratio": 81.99152542372882,
+                "token_set_ratio": 88.37209302325581
+              }
+            },
+            {
+              "cve": "CVE-2024-9214",
+              "similarity_scores": {
+                "ratio": 79.35483870967742,
+                "token_sort_ratio": 76.77419354838709,
+                "token_set_ratio": 83.21964529331514
+              }
+            },
+            {
+              "cve": "CVE-2024-9442",
+              "similarity_scores": {
+                "ratio": 83.54430379746836,
+                "token_sort_ratio": 80.7825086306099,
+                "token_set_ratio": 90.66666666666667
+              }
+            },
+            {
+              "cve": "CVE-2024-4417",
+              "similarity_scores": {
+                "ratio": 78.48605577689243,
+                "token_sort_ratio": 75.2988047808765,
+                "token_set_ratio": 87.04663212435233
+              }
+            },
+            {
+              "cve": "CVE-2024-2349",
+              "similarity_scores": {
+                "ratio": 87.38938053097345,
+                "token_sort_ratio": 84.070796460177,
+                "token_set_ratio": 95.65217391304348
+              }
+            },
+            {
+              "cve": "CVE-2024-0662",
+              "similarity_scores": {
+                "ratio": 75.74206755373592,
+                "token_sort_ratio": 74.71852610030707,
+                "token_set_ratio": 84.37856328392246
+              }
+            },
+            {
+              "cve": "CVE-2024-11882",
+              "similarity_scores": {
+                "ratio": 83.17853457172343,
+                "token_sort_ratio": 77.81217750257998,
+                "token_set_ratio": 86.45833333333333
+              }
+            },
+            {
+              "cve": "CVE-2024-11458",
+              "similarity_scores": {
+                "ratio": 74.55357142857143,
+                "token_sort_ratio": 71.65178571428572,
+                "token_set_ratio": 78.54984894259819
+              }
+            },
+            {
+              "cve": "CVE-2024-2948",
+              "similarity_scores": {
+                "ratio": 82.24101479915433,
+                "token_sort_ratio": 79.70401691331924,
+                "token_set_ratio": 86.45833333333333
+              }
+            },
+            {
+              "cve": "CVE-2024-1496",
+              "similarity_scores": {
+                "ratio": 85.87319243604004,
+                "token_sort_ratio": 83.42602892102336,
+                "token_set_ratio": 89.1008174386921
+              }
+            },
+            {
+              "cve": "CVE-2024-11811",
+              "similarity_scores": {
+                "ratio": 72.38095238095238,
+                "token_sort_ratio": 68.35978835978835,
+                "token_set_ratio": 73.2650739476678
+              }
+            },
+            {
+              "cve": "CVE-2024-11457",
+              "similarity_scores": {
+                "ratio": 74.59459459459458,
+                "token_sort_ratio": 70.05405405405405,
+                "token_set_ratio": 75.66320645905421
+              }
+            },
+            {
+              "cve": "CVE-2023-4841",
+              "similarity_scores": {
+                "ratio": 82.37837837837839,
+                "token_sort_ratio": 80.64864864864865,
+                "token_set_ratio": 87.36263736263736
+              }
+            }
+          ]
+        },
+        {
+          "cwe": "CWE-79",
+          "count": 29,
+          "confidence": 0.19863013698630136,
+          "evidence": [
+            {
+              "cve": "CVE-2020-36703",
+              "similarity_scores": {
+                "ratio": 74.25149700598803,
+                "token_sort_ratio": 73.2934131736527,
+                "token_set_ratio": 87.77969018932875
+              }
+            },
+            {
+              "cve": "CVE-2024-5263",
+              "similarity_scores": {
+                "ratio": 85.1931330472103,
+                "token_sort_ratio": 82.40343347639485,
+                "token_set_ratio": 87.60139049826188
+              }
+            },
+            {
+              "cve": "CVE-2024-5152",
+              "similarity_scores": {
+                "ratio": 90.20044543429844,
+                "token_sort_ratio": 87.08240534521158,
+                "token_set_ratio": 95.26315789473685
+              }
+            },
+            {
+              "cve": "CVE-2024-4615",
+              "similarity_scores": {
+                "ratio": 79.35909519321395,
+                "token_sort_ratio": 76.15457115928369,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2023-7070",
+              "similarity_scores": {
+                "ratio": 83.64389233954451,
+                "token_sort_ratio": 80.74534161490683,
+                "token_set_ratio": 86.86868686868686
+              }
+            },
+            {
+              "cve": "CVE-2024-5571",
+              "similarity_scores": {
+                "ratio": 78.1630740393627,
+                "token_sort_ratio": 74.97656982193064,
+                "token_set_ratio": 87.91773778920309
+              }
+            },
+            {
+              "cve": "CVE-2024-1425",
+              "similarity_scores": {
+                "ratio": 79.37743190661479,
+                "token_sort_ratio": 79.76653696498055,
+                "token_set_ratio": 87.04663212435233
+              }
+            },
+            {
+              "cve": "CVE-2024-1565",
+              "similarity_scores": {
+                "ratio": 79.60591133004927,
+                "token_sort_ratio": 79.60591133004927,
+                "token_set_ratio": 87.04663212435233
+              }
+            },
+            {
+              "cve": "CVE-2023-6986",
+              "similarity_scores": {
+                "ratio": 75.89545014520813,
+                "token_sort_ratio": 76.0890609874153,
+                "token_set_ratio": 84.80845442536328
+              }
+            },
+            {
+              "cve": "CVE-2024-1349",
+              "similarity_scores": {
+                "ratio": 79.45205479452055,
+                "token_sort_ratio": 79.06066536203522,
+                "token_set_ratio": 87.04663212435233
+              }
+            },
+            {
+              "cve": "CVE-2024-5645",
+              "similarity_scores": {
+                "ratio": 86.68866886688669,
+                "token_sort_ratio": 86.24862486248624,
+                "token_set_ratio": 92.50985545335085
+              }
+            },
+            {
+              "cve": "CVE-2024-0954",
+              "similarity_scores": {
+                "ratio": 80.58252427184466,
+                "token_sort_ratio": 79.41747572815534,
+                "token_set_ratio": 87.04663212435233
+              }
+            },
+            {
+              "cve": "CVE-2023-7044",
+              "similarity_scores": {
+                "ratio": 84.28874734607218,
+                "token_sort_ratio": 81.95329087048833,
+                "token_set_ratio": 85.77981651376146
+              }
+            },
+            {
+              "cve": "CVE-2024-5188",
+              "similarity_scores": {
+                "ratio": 85.4230377166157,
+                "token_sort_ratio": 81.9571865443425,
+                "token_set_ratio": 89.34010152284264
+              }
+            },
+            {
+              "cve": "CVE-2024-0586",
+              "similarity_scores": {
+                "ratio": 83.18227593152065,
+                "token_sort_ratio": 82.77945619335347,
+                "token_set_ratio": 87.21311475409836
+              }
+            },
+            {
+              "cve": "CVE-2024-0585",
+              "similarity_scores": {
+                "ratio": 82.76553106212425,
+                "token_sort_ratio": 82.56513026052103,
+                "token_set_ratio": 87.04663212435233
+              }
+            },
+            {
+              "cve": "CVE-2024-5612",
+              "similarity_scores": {
+                "ratio": 85.26645768025078,
+                "token_sort_ratio": 83.17659352142111,
+                "token_set_ratio": 90.72681704260651
+              }
+            },
+            {
+              "cve": "CVE-2023-7071",
+              "similarity_scores": {
+                "ratio": 86.1995753715499,
+                "token_sort_ratio": 84.71337579617835,
+                "token_set_ratio": 89.75979772439949
+              }
+            },
+            {
+              "cve": "CVE-2023-2406",
+              "similarity_scores": {
+                "ratio": 79.57198443579767,
+                "token_sort_ratio": 77.62645914396887,
+                "token_set_ratio": 83.5781041388518
+              }
+            },
+            {
+              "cve": "CVE-2023-4635",
+              "similarity_scores": {
+                "ratio": 74.65753424657534,
+                "token_sort_ratio": 71.68949771689498,
+                "token_set_ratio": 79.49526813880126
+              }
+            },
+            {
+              "cve": "CVE-2024-5889",
+              "similarity_scores": {
+                "ratio": 73.70689655172413,
+                "token_sort_ratio": 71.12068965517241,
+                "token_set_ratio": 75.75057736720555
+              }
+            },
+            {
+              "cve": "CVE-2024-0823",
+              "similarity_scores": {
+                "ratio": 83.7953091684435,
+                "token_sort_ratio": 84.86140724946695,
+                "token_set_ratio": 88.2217090069284
+              }
+            },
+            {
+              "cve": "CVE-2024-0824",
+              "similarity_scores": {
+                "ratio": 87.66519823788546,
+                "token_sort_ratio": 85.02202643171806,
+                "token_set_ratio": 92.63157894736842
+              }
+            },
+            {
+              "cve": "CVE-2024-5332",
+              "similarity_scores": {
+                "ratio": 85.06981740064447,
+                "token_sort_ratio": 83.56605800214822,
+                "token_set_ratio": 87.89473684210526
+              }
+            },
+            {
+              "cve": "CVE-2024-5666",
+              "similarity_scores": {
+                "ratio": 86.8995633187773,
+                "token_sort_ratio": 86.46288209606988,
+                "token_set_ratio": 93.54005167958657
+              }
+            },
+            {
+              "cve": "CVE-2023-2304",
+              "similarity_scores": {
+                "ratio": 84.33734939759037,
+                "token_sort_ratio": 83.6801752464403,
+                "token_set_ratio": 88.34688346883469
+              }
+            },
+            {
+              "cve": "CVE-2023-5669",
+              "similarity_scores": {
+                "ratio": 83.76068376068376,
+                "token_sort_ratio": 82.6923076923077,
+                "token_set_ratio": 87.88927335640139
+              }
+            },
+            {
+              "cve": "CVE-2023-6561",
+              "similarity_scores": {
+                "ratio": 87.38938053097345,
+                "token_sort_ratio": 82.96460176991151,
+                "token_set_ratio": 93.06122448979592
+              }
+            },
+            {
+              "cve": "CVE-2024-6256",
+              "similarity_scores": {
+                "ratio": 82.95687885010267,
+                "token_sort_ratio": 78.64476386036961,
+                "token_set_ratio": 86.45833333333333
+              }
+            }
+          ]
+        },
+        {
+          "cwe": "CWE-89",
+          "count": 1,
+          "confidence": 0.00684931506849315,
+          "evidence": [
+            {
+              "cve": "CVE-2023-5252",
+              "similarity_scores": {
+                "ratio": 84.3400447427293,
+                "token_sort_ratio": 84.56375838926175,
+                "token_set_ratio": 90.17980636237897
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
