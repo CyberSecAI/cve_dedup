@@ -2,6 +2,7 @@
 dedup/
 data_in/nvd.jsonl
 tmp
+./analysis_results_csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

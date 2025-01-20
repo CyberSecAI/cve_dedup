@@ -53,12 +53,10 @@ class CVEProcessor:
             cwes = []
             weaknesses = cve_data.get('weaknesses', [])
             for weakness in weaknesses:
-                if weakness.get('source') == 'nvd@nist.gov':
-                    for desc in weakness.get('description', []):
-                        if desc.get('lang') == 'en':
-                            value = desc.get('value', '')
-                            if value.startswith('CWE-'):
-                                cwes.append(value)
+                for desc in weakness.get('description', []):
+                    if desc.get('lang') == 'en':
+                        value = desc.get('value', '')
+                        cwes.append(value)
             return cwes
         except Exception as e:
             print(f"Error extracting CWEs: {e}")
