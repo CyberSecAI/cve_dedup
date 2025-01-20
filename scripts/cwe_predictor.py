@@ -87,10 +87,12 @@ class CWEPredictor:
                 if cve in cve_cwe_mapping:
                     cwes = cve_cwe_mapping[cve].split('|')
                     for cwe in cwes:
-                        cwe_counts[cwe] += 1
-                        if cwe not in cwe_evidence:
-                            cwe_evidence[cwe] = []
-                        cwe_evidence[cwe].append({
+                        # Strip CWE- prefix if present
+                        clean_cwe = cwe.replace('CWE-', '')
+                        cwe_counts[clean_cwe] += 1
+                        if clean_cwe not in cwe_evidence:
+                            cwe_evidence[clean_cwe] = []
+                        cwe_evidence[clean_cwe].append({
                             'cve': cve,
                             'similarity_scores': entry.get('similarity_scores', {})
                         })
@@ -160,7 +162,8 @@ def main():
         print("\nCWE Prediction Results")
         print("=" * 50)
         print(f"Target CVE: {results['target_cve']}")
-        print(f"Known CWE: {results['known_cwe']}")
+        known_cwe = results['known_cwe'].replace('CWE-', '')  # Strip CWE- prefix
+        print(f"Known CWE: {known_cwe}")
         print("\nPredictions (in order of confidence):")
         for pred in results['predictions']:
             print(f"\nCWE-{pred['cwe']}:")

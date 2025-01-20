@@ -156,7 +156,115 @@ No similar CVEs found for CVE-2021-44228
 ````
 
 
-### 4. Visualization Generation
+### 4. CVE Similarity by CWE Confidence
+
+#### cwe_predictor.py
+This script predicts CWEs for CVEs based on description similarity analysis.
+
+Features:
+- Multi-threshold analysis (95% down to 70%)
+- Confidence scoring based on CWE frequency
+- Supporting evidence with similarity scores
+- Detailed analysis at each threshold level
+
+**Understanding Confidence Scores:**  
+The confidence score represents how frequently a CWE appears among similar CVEs. For example:
+- If 3 out of 10 similar CVEs have CWE-79, the confidence score for CWE-79 would be 30%
+- A confidence score of 100% means all similar CVEs share the same CWE
+- Higher confidence scores suggest stronger prediction reliability
+
+
+```bash
+# Basic usage
+python3 scripts/cwe_predictor.py CVE-2024-1234
+
+# With custom similarity threshold
+python3 scripts/cwe_predictor.py CVE-2024-1234 --min-threshold 80
+
+# Save detailed results
+python3 scripts/cwe_predictor.py CVE-2024-1234 --output results.json
+```
+
+````
+python3 scripts/cwe_predictor.py CVE-2024-1234
+INFO:__main__:Loading CVE-CWE mapping data...
+
+CWE Prediction Results
+==================================================
+Target CVE: CVE-2024-1234
+Known CWE: NoCWE
+
+Predictions (in order of confidence):
+
+CWE-NoCWE:
+  Confidence: 100.0%
+  Supporting CVEs: 1
+  Evidence:
+    - CVE-2024-2750 (similarity: 98.31824062095731%)
+
+CWE-79:
+  Confidence: 14.3%
+  Supporting CVEs: 3
+  Evidence:
+    - CVE-2024-0834 (similarity: 95.62913907284768%)
+    - CVE-2024-0448 (similarity: 93.12039312039312%)
+    - CVE-2024-5757 (similarity: 90.98250336473755%)
+
+CWE-89:
+  Confidence: 0.7%
+  Supporting CVEs: 1
+  Evidence:
+    - CVE-2023-5252 (similarity: 90.17980636237897%)
+````
+
+
+````
+ python3 scripts/cwe_predictor.py CVE-2015-3765
+INFO:__main__:Loading CVE-CWE mapping data...
+
+CWE Prediction Results
+==================================================
+Target CVE: CVE-2015-3765
+Known CWE: 119
+
+Predictions (in order of confidence):
+
+CWE-119:
+  Confidence: 100.0%
+  Supporting CVEs: 9
+  Evidence:
+    - CVE-2015-5753 (similarity: 100.0%)
+    - CVE-2015-3792 (similarity: 100.0%)
+    - CVE-2015-3789 (similarity: 100.0%)
+
+CWE-94:
+  Confidence: 6.5%
+  Supporting CVEs: 3
+  Evidence:
+    - CVE-2009-0160 (similarity: 82.70676691729324%)
+    - CVE-2011-3228 (similarity: 93.0635838150289%)
+    - CVE-2011-3221 (similarity: 81.02893890675242%)
+
+CWE-399:
+  Confidence: 2.2%
+  Supporting CVEs: 1
+  Evidence:
+    - CVE-2008-2325 (similarity: 93.0635838150289%)
+
+CWE-264:
+  Confidence: 2.2%
+  Supporting CVEs: 1
+  Evidence:
+    - CVE-2011-3458 (similarity: 81.02893890675242%)
+
+CWE-362:
+  Confidence: 2.2%
+  Supporting CVEs: 1
+  Evidence:
+    - CVE-2012-3748 (similarity: 80.51948051948052%)
+````
+
+### 5. Visualization Generation
 
 #### cwe_similarity_plots.py
 - Generates comprehensive visualizations of CWE consistency
