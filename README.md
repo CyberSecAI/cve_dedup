@@ -281,9 +281,57 @@ Analysis plots saved to images/cwe_group_consistency.png
 
 python3 scripts/cwe_similarity_plots.py
 Analysis plots saved to images/cwe_consistency_analysis.png
+
+
+
 ```
 
+```bash
+python3 scripts/cwe_similarity_analyzer.py 
 
+CVE-CWE Mapping Statistics
+==================================================
+
+CWE Consistency Analysis Results
+==================================================
+Similarity Threshold: 90
+Total Groups Analyzed: 16814
+Consistent Groups: 13237
+Consistency Ratio: 78.73%
+
+Top CWE Co-occurrences in Inconsistent Groups:
+--------------------------------------------------
+CWE-125 & CWE-787: 231 occurrences
+CWE-89 & NVD-CWE-Other: 163 occurrences
+CWE-79 & NVD-CWE-Other: 154 occurrences
+CWE-20 & NVD-CWE-noinfo: 147 occurrences
+NVD-CWE-Other & NVD-CWE-noinfo: 133 occurrences
+CWE-119 & CWE-787: 117 occurrences
+CWE-200 & NVD-CWE-noinfo: 110 occurrences
+CWE-787 & NVD-CWE-noinfo: 103 occurrences
+CWE-416 & CWE-787: 81 occurrences
+CWE-119 & NVD-CWE-noinfo: 80 occurrences
+
+Group Size Analysis:
+--------------------------------------------------
+Average Group Size (All): 3.79
+Average Group Size (Consistent): 3.20
+
+Example Groups:
+--------------------------------------------------
+
+Consistent Group Example:
+Base CVE: CVE-2022-30615
+Common CWEs: ['CWE-79']
+Group Size: 2
+
+Inconsistent Group Example:
+Base CVE: CVE-2020-14263
+All CWEs: ['CWE-732', 'CWE-327']
+Group Size: 2
+
+Detailed results saved to cwe_consistency_analysis_90.json
+````
 
 
 ## Visualizations

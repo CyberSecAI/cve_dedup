@@ -147,7 +147,7 @@ def load_cve_cwe_data(filepath: str) -> Dict[str, str]:
 def main():
     parser = argparse.ArgumentParser(description='Predict CWE for a CVE based on similar CVEs')
     parser.add_argument('cve', help='Target CVE ID to analyze')
-    parser.add_argument('--cve-cwe-file', default='data_in/CVSSData.csv.gz',
+    parser.add_argument('--cve-cwe-file',  default='../nvd_cve_data/data_out/CVSSData.csv.gz',
                        help='CSV file with CVE-CWE mappings')
     parser.add_argument('--min-threshold', type=int, default=70,
                        help='Minimum similarity threshold to consider')
