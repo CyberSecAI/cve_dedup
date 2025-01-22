@@ -31,10 +31,8 @@ class CWEPredictor:
         """Find CVEs similar to the target CVE in the DataFrame."""
         similar_cves = set()
         
-        # Look for the target CVE
         row = df[df['CVE_ID'] == target_cve]
         if not row.empty:
-            # Split the Similar_CVEs string into a list
             similar_str = row.iloc[0]['Similar_CVEs']
             if pd.notna(similar_str):
                 similar_cves.update(similar_str.split('|'))
@@ -51,37 +49,22 @@ class CWEPredictor:
         Predict CWE for target CVE based on similar CVEs across thresholds.
         Returns detailed analysis of CWE predictions and supporting evidence.
         """
-        if self.debug:
-            print(f"\nTarget CVE: {target_cve}")
-            print(f"Known CWE: {cve_cwe_mapping.get(target_cve, 'Unknown')}")
-            
         results = {
             'target_cve': target_cve,
             'known_cwe': cve_cwe_mapping.get(target_cve, 'Unknown'),
             'predictions': [],
-            'analysis': {}
+            'analysis': {},
+            'summary': {}  # New summary section for LLM input
         }
 
-        # Process each threshold
         for threshold in self.thresholds:
-            if self.debug:
-                print(f"\nProcessing threshold {threshold}%:")
-                
-            # Load similar CVEs for this threshold
             similar_df = self.load_similar_cves(threshold)
             if similar_df.empty:
                 continue
 
-            # Find similar CVEs
             similar_cves = self.find_similar_cves(target_cve, similar_df)
             if not similar_cves:
                 continue
-
-            if self.debug:
-                print("\nCWE mappings for similar CVEs:")
-                for cve in sorted(similar_cves):
-                    cwe = cve_cwe_mapping.get(cve, 'NoCWE')
-                    print(f"{cve}: {cwe}")
 
             # Collect CWEs from similar CVEs
             cwe_counts = Counter()
@@ -91,7 +74,6 @@ class CWEPredictor:
                 if cve in cve_cwe_mapping:
                     cwes = cve_cwe_mapping[cve].split('|')
                     for cwe in cwes:
-                        # Strip CWE- prefix if present
                         clean_cwe = cwe.replace('CWE-', '')
                         cwe_counts[clean_cwe] += 1
                         
@@ -107,10 +89,8 @@ class CWEPredictor:
                 total_similar = len(similar_cves)
                 threshold_predictions = []
                 
-                if self.debug:
-                    print(f"\nCWE counts at threshold {threshold}%:")
-                    for cwe, count in cwe_counts.most_common():
-                        print(f"CWE-{cwe}: {count}/{total_similar} ({count/total_similar:.1%})")
+                # Add summary data for this threshold
+                results['summary'][threshold] = []
                 
                 for cwe, count in cwe_counts.most_common():
                     confidence = count / total_similar
@@ -119,6 +99,14 @@ class CWEPredictor:
                         'count': count,
                         'confidence': confidence,
                         'evidence': cwe_evidence[cwe]
+                    })
+                    
+                    # Add to summary
+                    results['summary'][threshold].append({
+                        'cwe': cwe,
+                        'similar_cves_count': total_similar,
+                        'count': count,
+                        'confidence': float(f"{confidence:.3f}")  # Format to 3 decimal places
                     })
                 
                 results['analysis'][threshold] = {
@@ -152,6 +140,7 @@ def main():
     parser.add_argument('--min-threshold', type=int, default=70,
                        help='Minimum similarity threshold to consider')
     parser.add_argument('--output', help='Optional output JSON file for results')
+    parser.add_argument('--summary-output', help='Optional output file for summary JSON')
     parser.add_argument('--debug', action='store_true', help='Enable debug output')
     args = parser.parse_args()
     
@@ -169,25 +158,33 @@ def main():
         with open(args.output, 'w') as f:
             json.dump(results, f, indent=2)
         print(f"Results saved to {args.output}")
-    else:
-        print("\nCWE Prediction Results")
-        print("=" * 50)
-        print(f"Target CVE: {results['target_cve']}")
-        known_cwe = results['known_cwe'].replace('CWE-', '')  # Strip CWE- prefix
-        print(f"Known CWE: {known_cwe}")
-        print("\nPredictions by threshold:")
         
-        for threshold in sorted(results['analysis'].keys(), reverse=True):
-            analysis = results['analysis'][threshold]
-            print(f"\nThreshold {threshold}%:")
-            print(f"Similar CVEs found: {analysis['similar_cves_count']}")
-            for pred in analysis['predictions']:
-                print(f"  CWE-{pred['cwe']}:")
-                print(f"    Confidence: {pred['confidence']:.1%}")
-                print(f"    Supporting CVEs: {pred['count']}")
-                print("    Evidence (up to 3 examples):")
-                for evidence in pred['evidence'][:3]:
-                    print(f"      - {evidence['cve']}")
+    # Save summary if requested
+    if args.summary_output:
+        import json
+        with open(args.summary_output, 'w') as f:
+            json.dump(results['summary'], f, indent=2)
+        print(f"Summary saved to {args.summary_output}")
+    
+    # Print results
+    print("\nCWE Prediction Results")
+    print("=" * 50)
+    print(f"Target CVE: {results['target_cve']}")
+    known_cwe = results['known_cwe'].replace('CWE-', '')
+    print(f"Known CWE: {known_cwe}")
+    print("\nPredictions by threshold:")
+    
+    for threshold in sorted(results['analysis'].keys(), reverse=True):
+        analysis = results['analysis'][threshold]
+        print(f"\nThreshold {threshold}%:")
+        print(f"Similar CVEs found: {analysis['similar_cves_count']}")
+        for pred in analysis['predictions']:
+            print(f"  CWE-{pred['cwe']}:")
+            print(f"    Confidence: {pred['confidence']:.1%}")
+            print(f"    Supporting CVEs: {pred['count']}")
+            print("    Evidence (up to 3 examples):")
+            for evidence in pred['evidence'][:3]:
+                print(f"      - {evidence['cve']}")
 
 if __name__ == "__main__":
     main()
