@@ -119,7 +119,9 @@ def create_cwe_consistency_plots(groups_df: pd.DataFrame, cve_cwe_df: pd.DataFra
 def main():
     # Load your data
     similarity_file = 'analysis_results/similarity_groups_90.json.gz'
-    cve_cwe_df = pd.read_csv('data_in/CVSSData.csv.gz', compression='gzip')
+    #cve_cwe_df = pd.read_csv('data_in/CVSSData.csv.gz', compression='gzip')
+    cve_cwe_df = pd.read_csv('../nvd_cve_data/data_out/CVSSData.csv.gz', compression='gzip')
+
     
     # Analyze groups
     groups_df = analyze_similarity_groups(similarity_file)

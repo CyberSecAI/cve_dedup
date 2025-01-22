@@ -1,8 +1,9 @@
 #venv
 dedup/
 data_in/nvd.jsonl
+data_in/nvd.json
 tmp
-./analysis_results_csv
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

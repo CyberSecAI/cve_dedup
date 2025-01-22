@@ -113,55 +113,10 @@ For a dataset of ~240,000 CVEs:
 ````
 python3 json2csv.py
 
-Processing Summary:
-Total entries processed: 275721
-Total rejected CVEs: 14595
- - With '** REJECT **': 0
- - With 'Rejected reason:': 14595
-Valid CVEs saved: 261126
-Rejection rate: 5.29%
-
-Saved 261126 valid CVE entries to ./data_in/CVSSData.csv.gz
-
-First few entries:
-             CVE                                        Description
-0  CVE-1999-0095  The debug command in Sendmail is enabled, allo...
-1  CVE-1999-0082      CWD ~root command in ftpd allows root access.
-2  CVE-1999-1471  Buffer overflow in passwd in BSD based operati...
-3  CVE-1999-1122  Vulnerability in restore in SunOS 4.0.3 and ea...
-4  CVE-1999-1467  Vulnerability in rcp on SunOS 4.0.x allows rem...
-
-Total valid CVEs saved: 261126
 ````
 
 
 
-## Multi-Threshold Analysis
-````
-python3 ./multi_threshold_analysis.py 
-...
-
-Saved detailed results for threshold 95 to analysis_results/similarity_groups_95.json.gz
-Saved detailed results for threshold 90 to analysis_results/similarity_groups_90.json.gz
-Saved detailed results for threshold 80 to analysis_results/similarity_groups_80.json.gz
-
-Threshold Comparison:
-----------------------------------------------------------------------------------------------------
-Threshold  Groups   Duplicates Dup %    Avg Group Size Mean Score
-----------------------------------------------------------------------------------------------------
-95         16965    47886      18.34    2.82           93.44     
-90         23610    78055      29.89    3.31           88.26     
-80         27643    126174     48.32    4.56           78.46   
-````
 
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-> [!NOTE]  
->This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
-> - https://creativecommons.org/licenses/by-sa/4.0/
 

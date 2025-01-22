@@ -276,8 +276,11 @@ cve_dedupe_fuzzywuzzy.ipynb
 
 ```bash
 # Generate various visualization plots
-python3 cwe_similarity_plots.py
-python3 cwe_similarity_plots_scatter.py
+python3 scripts/cwe_similarity_plots_scatter.py
+Analysis plots saved to images/cwe_group_consistency.png
+
+python3 scripts/cwe_similarity_plots.py
+Analysis plots saved to images/cwe_consistency_analysis.png
 ```
 
 

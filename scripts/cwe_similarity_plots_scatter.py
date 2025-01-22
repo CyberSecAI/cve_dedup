@@ -116,7 +116,7 @@ def analyze_group_consistency(similarity_file: str, cve_cwe_df: pd.DataFrame):
 def main():
     # Load data
     similarity_file = 'analysis_results/similarity_groups_90.json.gz'
-    cve_cwe_df = pd.read_csv('data_in/CVSSData.csv.gz', compression='gzip')
+    cve_cwe_df = pd.read_csv('../nvd_cve_data/data_out/CVSSData.csv.gz', compression='gzip')
     
     # Create visualization
     fig = analyze_group_consistency(similarity_file, cve_cwe_df)

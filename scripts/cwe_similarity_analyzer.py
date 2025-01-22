@@ -121,12 +121,16 @@ class CWESimilarityAnalyzer:
 
 def main():
     parser = argparse.ArgumentParser(description='Analyze CWE consistency in similar CVE groups')
-    parser.add_argument('cve_cwe_file', help='CSV file with CVE and CWE mappings')
+    #parser.add_argument('cve_cwe_file', help='CSV file with CVE and CWE mappings')
     parser.add_argument('--threshold', type=int, default=90, help='Similarity threshold to analyze')
+
     args = parser.parse_args()
     
     # Read CVE-CWE mappings
-    df = pd.read_csv(args.cve_cwe_file)
+    #df = pd.read_csv(args.cve_cwe_file)
+    
+    df = pd.read_csv('../nvd_cve_data/data_out/CVSSData.csv.gz', compression='gzip')
+
     if not {'CVE', 'CWE'}.issubset(df.columns):
         raise ValueError("Input CSV must have 'CVE' and 'CWE' columns")
     
