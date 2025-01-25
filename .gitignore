@@ -3,7 +3,8 @@ dedup/
 data_in/nvd.jsonl
 data_in/nvd.json
 tmp
-
+data_out/cleaned_optimized_fuzzy_deduplicated_file.csv.gz
+data_out/CVE_similarity/cve_similarity.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
